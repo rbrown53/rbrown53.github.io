@@ -27,6 +27,8 @@ website:
             text: MATH 3700
           - href: Course Notes/R-Guide.pdf
             text: R Guide
+      - href: workshops.qmd
+        text: Conference Workshops
 
 
 format:

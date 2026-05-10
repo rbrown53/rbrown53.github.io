@@ -49,6 +49,41 @@
     "text": "R Package\nThe GitHub repo for the R package associated with this course can be found here: https://github.com/rbrown53/math3190package."
   },
   {
+    "objectID": "workshops.html",
+    "href": "workshops.html",
+    "title": "Conference Workshops",
+    "section": "",
+    "text": "The Red Rock Data Science Conference 2026 was held at the Atwood Innovation Plaza at Utah Tech University in St. George, Utah from May 18-21. I led a workshop on Quarto, GitHub, and personal websites on Wednesday, May 19.\nThe materials for this workshop can be found on this GitHub page: https://github.com/rbrown53/RRDS26."
+  },
+  {
+    "objectID": "workshops.html#workshop-1-ggplot2",
+    "href": "workshops.html#workshop-1-ggplot2",
+    "title": "Conference Workshops",
+    "section": "Workshop 1 – ggplot2",
+    "text": "Workshop 1 – ggplot2\nThe zip file containing workshop 1 materials can be found here: Workshop 1 Files."
+  },
+  {
+    "objectID": "workshops.html#workshop-2-r-packages",
+    "href": "workshops.html#workshop-2-r-packages",
+    "title": "Conference Workshops",
+    "section": "Workshop 2 – R Packages",
+    "text": "Workshop 2 – R Packages\nThe zip file containing workshop 2 materials can be found here: Workshop 2 Files."
+  },
+  {
+    "objectID": "workshops.html#workshop-3-r-shiny",
+    "href": "workshops.html#workshop-3-r-shiny",
+    "title": "Conference Workshops",
+    "section": "Workshop 3 – R Shiny",
+    "text": "Workshop 3 – R Shiny\nThe zip file containing workshop 3 materials can be found here: Workshop 3 Files."
+  },
+  {
+    "objectID": "workshops.html#data-files",
+    "href": "workshops.html#data-files",
+    "title": "Conference Workshops",
+    "section": "Data Files",
+    "text": "Data Files\n\nairlines.csv\nCollegeDistance.csv"
+  },
+  {
     "objectID": "teaching.html",
     "href": "teaching.html",
     "title": "Teaching",

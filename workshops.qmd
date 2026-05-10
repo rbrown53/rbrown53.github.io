@@ -1,0 +1,38 @@
+---
+title: "Conference Workshops"
+page-layout: full
+---
+
+<!-- ln -s ~/'My Drive/Red Rock Data Science Conference' rrds -->
+
+# Red Rock Data Science 2026
+
+The Red Rock Data Science Conference 2026 was held at the Atwood Innovation Plaza at Utah Tech University in St. George, Utah from May 18-21. I led a workshop on Quarto, GitHub, and personal websites on Wednesday, May 19.
+
+The materials for this workshop can be found on this GitHub page: [https://github.com/rbrown53/RRDS26](https://github.com/rbrown53/RRDS26).
+
+
+# Red Rock Data Science 2025
+
+The Red Rock Data Science Conference 2025 was held at the Dixie Convention Center in St. George, Utah from May 27-30, 2025. I led a workshop on data visualization on Wednesday, May 28.
+
+The materials for this workshop can be found on this GitHub page: [https://github.com/rbrown53/RRDS25](https://github.com/rbrown53/RRDS25).
+
+
+# Red Rock Data Science 2024
+
+The Red Rock Data Science Conference 2024 was held at Southern Utah University in Cedar City, Utah from May 21-24, 2024. There were three workshops I led on Friday, May 24. 
+
+## Workshop 1 -- ggplot2
+The zip file containing workshop 1 materials can be found here: [Workshop 1 Files](rrds/2024/2024_05_RRDS_R_Workshop/Friday_Workshops/Workshop 1 - ggplot2/Workshop 1.zip).
+
+## Workshop 2 -- R Packages
+The zip file containing workshop 2 materials can be found here: [Workshop 2 Files](rrds/2024/2024_05_RRDS_R_Workshop/Friday_Workshops/Workshop 2 - R Packages/Workshop 2.zip).
+
+## Workshop 3 -- R Shiny
+The zip file containing workshop 3 materials can be found here: [Workshop 3 Files](rrds/2024/2024_05_RRDS_R_Workshop/Friday_Workshops/Workshop 3 - R Shiny/Workshop 3.zip).
+
+## Data Files
+
+* [airlines.csv](rrds/2024/2024_05_RRDS_R_Workshop/Friday_Workshops/Data/airlines.csv)
+* [CollegeDistance.csv](rrds/2024/2024_05_RRDS_R_Workshop/Friday_Workshops/Data/CollegeDistance.csv)
