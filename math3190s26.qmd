@@ -51,6 +51,9 @@ This is the course page for MATH 3190 most recently taught in Spring 2026.
 
 ## Homework 
 
+
+:::: {layout-ncol="2"}
+::: {}
 * Homework 0
   - [Word Document](math3190/Homework/Homework 0/Homework 0.docx)
   - [PDF File](math3190/Homework/Homework 0/Homework 0.pdf)
@@ -74,6 +77,9 @@ This is the course page for MATH 3190 most recently taught in Spring 2026.
   - [HTML File](math3190/Homework/Homework 5/Homework 5.html)
   - [PDF File](math3190/Homework/Homework 5/Homework-5.pdf)
   - [Quarto File](math3190/Homework/Homework 5/Homework 5.qmd)
+:::
+
+::: {}
 * Homework 6
   - [HTML File](math3190/Homework/Homework 6/Homework 6.html)
   - [PDF File](math3190/Homework/Homework 6/Homework-6.pdf)
@@ -94,6 +100,9 @@ This is the course page for MATH 3190 most recently taught in Spring 2026.
   - [HTML File](math3190/Homework/Homework 10/Homework 10.html)
   - [PDF File](math3190/Homework/Homework 10/Homework-10.pdf)
   - [Quarto File](math3190/Homework/Homework 10/Homework 10.qmd)
+
+:::
+::::
 
 ## Labs
 
