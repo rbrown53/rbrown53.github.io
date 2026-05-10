@@ -17,7 +17,7 @@ This is the course page for MATH 3190 most recently taught in Spring 2026.
 
 ## Course Notes
 
-* [All notes](Course Notes/Math 3190 Notes - All.pdf)
+* [All notes](math3190/Notes/All Notes/Math 3190 Notes - All.pdf)
 * [Notes 1 - Intro and GitHub](math3190/Notes/Notes 1 - Intro Unix and GitHub/6 Slides/Notes-1---Intro_6_Slides.pdf)
   - [Notes 1 Slides](math3190/Notes/Notes 1 - Intro Unix and GitHub/Notes-1---Intro.pdf)
   - [Source Code (Quarto File)](math3190/Notes/Notes 1 - Intro Unix and GitHub/Notes 1 - Intro.qmd)
