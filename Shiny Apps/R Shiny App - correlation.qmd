@@ -1,0 +1,182 @@
+---
+title: "Guess the Correlation Shiny App"
+filters:
+  - shinylive
+---
+
+<!-- Had to run the following in the terminal first: -->
+<!-- mkdir -p ~/python-envs -->
+<!-- python3 -m venv ~/python-envs/quarto -->
+<!-- source ~/python-envs/quarto/bin/activate -->
+<!-- pip install jupyter ipykernel pyyaml shinylive -->
+<!-- python -m ipykernel install --user --name quarto-python --display-name "Quarto Python" -->
+
+<!-- Put the following in ~/.zshrc -->
+<!-- export QUARTO_PYTHON=~/python-envs/quarto/bin/python -->
+
+<!-- Then ran in terminal: -->
+<!-- source ~/.zshrc -->
+<!-- launchctl setenv QUARTO_PYTHON "$HOME/python-envs/quarto/bin/python" -->
+
+```{shinylive-r}
+#| standalone: true
+#| viewerHeight: 600
+library(shiny)
+library(tidyverse)
+library(plotly)
+library(shinyjs)
+
+ui <- fluidPage(
+  useShinyjs(),
+
+  textInput("cor_guess", "Guess the correlation!"),
+
+  actionButton("submit_guess", "Submit Guess"),
+  actionButton("new_plot", "Generate New Plot"),
+  actionButton("toggle_stats", "Hide Guess History"),
+
+  br(), br(),
+
+  plotOutput("graph"),
+
+  textOutput("message"),
+
+  plotlyOutput("stats"),
+
+  br(),
+
+  div(
+    id = "reset_container",
+    actionButton("reset_input", "Reset Game")
+  )
+)
+
+server <- function(input, output, session) {
+
+  vars <- reactiveValues(
+    off_values = c(),
+    show_stats = TRUE,
+    true_cor = NULL
+  )
+
+  x_vals <- reactiveVal()
+  y_vals <- reactiveVal()
+
+  generate_data <- function() {
+
+    x <- rnorm(100)
+
+    target_cor <- runif(1, -0.95, 0.95)
+
+    z <- rnorm(100)
+    z <- scale(z - cor(z, x) * x)
+
+    y <- target_cor * scale(x) + sqrt(1 - target_cor^2) * z
+
+    x_vals(as.numeric(x))
+    y_vals(as.numeric(y))
+    vars$true_cor <- cor(x, y)
+  }
+
+  generate_data()
+
+  output$graph <- renderPlot({
+
+    df <- data.frame(
+      x = as.numeric(x_vals()),
+      y = as.numeric(y_vals())
+    )
+
+    req(nrow(df) > 0)
+
+    ggplot(df, aes(x = x, y = y)) +
+      geom_point(size = 3, alpha = 1) +
+      theme(axis.text = element_text(size = 12),
+            axis.title = element_text(size = 16))
+  })
+
+  # ---- MESSAGE ----
+  output$message <- renderText({
+
+    req(input$submit_guess)
+
+    guess <- suppressWarnings(as.numeric(input$cor_guess))
+    req(!is.na(guess))
+
+    paste0(
+      "Your guess was ", guess, ".\n\n",
+      "The true value was ", round(vars$true_cor, 3), ".\n",
+      "That is a difference of ", round(abs(guess - vars$true_cor), 3), "."
+    )
+  })
+
+  output$stats <- renderPlotly({
+
+    req(vars$show_stats)
+
+    if (length(vars$off_values) == 0) {
+
+      p <- ggplot() +
+        annotate("text", x = 0.5, y = 0.5,
+                 label = "Please make some guesses to see guess history.",
+                 size = 6) +
+        theme_void()
+
+    } else {
+
+      d <- data.frame(
+        guess = seq_along(vars$off_values),
+        error = round(vars$off_values, 5)
+      )
+
+      p <- ggplot(d, aes(x = guess, y = error)) +
+        geom_point() +
+        geom_line() +
+        geom_hline(yintercept = 0, color = "red") +
+        labs(x = "Guess Number", y = "Error") 
+    }
+
+    ggplotly(p)
+  })
+
+  # ---- submit guess ----
+  observeEvent(input$submit_guess, {
+
+    guess <- suppressWarnings(as.numeric(input$cor_guess))
+    req(!is.na(guess))
+
+    vars$off_values <- c(vars$off_values, guess - vars$true_cor)
+  })
+
+  # ---- new plot ----
+  observeEvent(input$new_plot, {
+    generate_data()
+  })
+
+  # ---- reset ----
+  observeEvent(input$reset_input, {
+    generate_data()
+    vars$off_values <- c()
+  })
+
+  # ---- toggle ----
+  observeEvent(input$toggle_stats, {
+
+    vars$show_stats <- !vars$show_stats
+
+    if (vars$show_stats) {
+      shinyjs::show("stats")
+      shinyjs::show("reset_container")
+      updateActionButton(session, "toggle_stats",
+                         label = "Hide Guess History")
+    } else {
+      shinyjs::hide("stats")
+      shinyjs::hide("reset_container")
+      updateActionButton(session, "toggle_stats",
+                         label = "Show Guess History")
+    }
+  })
+}
+
+shinyApp(ui, server)
+```

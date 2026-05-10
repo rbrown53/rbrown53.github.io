@@ -84,6 +84,13 @@
     "text": "Data Files\n\nairlines.csv\nCollegeDistance.csv"
   },
   {
+    "objectID": "Shiny Apps/R Shiny App - correlation.html",
+    "href": "Shiny Apps/R Shiny App - correlation.html",
+    "title": "Guess the Correlation Shiny App",
+    "section": "",
+    "text": "#| '!! shinylive warning !!': |\n#|   shinylive does not work in self-contained HTML documents.\n#|   Please set `embed-resources: false` in your metadata.\n#| standalone: true\n#| viewerHeight: 600\nlibrary(shiny)\nlibrary(tidyverse)\nlibrary(plotly)\nlibrary(shinyjs)\n\nui &lt;- fluidPage(\n  useShinyjs(),\n\n  textInput(\"cor_guess\", \"Guess the correlation!\"),\n\n  actionButton(\"submit_guess\", \"Submit Guess\"),\n  actionButton(\"new_plot\", \"Generate New Plot\"),\n  actionButton(\"toggle_stats\", \"Hide Guess History\"),\n\n  br(), br(),\n\n  plotOutput(\"graph\"),\n\n  textOutput(\"message\"),\n\n  plotlyOutput(\"stats\"),\n\n  br(),\n\n  div(\n    id = \"reset_container\",\n    actionButton(\"reset_input\", \"Reset Game\")\n  )\n)\n\nserver &lt;- function(input, output, session) {\n\n  vars &lt;- reactiveValues(\n    off_values = c(),\n    show_stats = TRUE,\n    true_cor = NULL\n  )\n\n  x_vals &lt;- reactiveVal()\n  y_vals &lt;- reactiveVal()\n\n  generate_data &lt;- function() {\n\n    x &lt;- rnorm(100)\n\n    target_cor &lt;- runif(1, -0.95, 0.95)\n\n    z &lt;- rnorm(100)\n    z &lt;- scale(z - cor(z, x) * x)\n\n    y &lt;- target_cor * scale(x) + sqrt(1 - target_cor^2) * z\n\n    x_vals(as.numeric(x))\n    y_vals(as.numeric(y))\n    vars$true_cor &lt;- cor(x, y)\n  }\n\n  generate_data()\n\n  output$graph &lt;- renderPlot({\n\n    df &lt;- data.frame(\n      x = as.numeric(x_vals()),\n      y = as.numeric(y_vals())\n    )\n\n    req(nrow(df) &gt; 0)\n\n    ggplot(df, aes(x = x, y = y)) +\n      geom_point(size = 3, alpha = 1) +\n      theme(axis.text = element_text(size = 12),\n            axis.title = element_text(size = 16))\n  })\n\n  # ---- MESSAGE ----\n  output$message &lt;- renderText({\n\n    req(input$submit_guess)\n\n    guess &lt;- suppressWarnings(as.numeric(input$cor_guess))\n    req(!is.na(guess))\n\n    paste0(\n      \"Your guess was \", guess, \".\\n\\n\",\n      \"The true value was \", round(vars$true_cor, 3), \".\\n\",\n      \"That is a difference of \", round(abs(guess - vars$true_cor), 3), \".\"\n    )\n  })\n\n  output$stats &lt;- renderPlotly({\n\n    req(vars$show_stats)\n\n    if (length(vars$off_values) == 0) {\n\n      p &lt;- ggplot() +\n        annotate(\"text\", x = 0.5, y = 0.5,\n                 label = \"Please make some guesses to see guess history.\",\n                 size = 6) +\n        theme_void()\n\n    } else {\n\n      d &lt;- data.frame(\n        guess = seq_along(vars$off_values),\n        error = round(vars$off_values, 5)\n      )\n\n      p &lt;- ggplot(d, aes(x = guess, y = error)) +\n        geom_point() +\n        geom_line() +\n        geom_hline(yintercept = 0, color = \"red\") +\n        labs(x = \"Guess Number\", y = \"Error\") \n    }\n\n    ggplotly(p)\n  })\n\n  # ---- submit guess ----\n  observeEvent(input$submit_guess, {\n\n    guess &lt;- suppressWarnings(as.numeric(input$cor_guess))\n    req(!is.na(guess))\n\n    vars$off_values &lt;- c(vars$off_values, guess - vars$true_cor)\n  })\n\n  # ---- new plot ----\n  observeEvent(input$new_plot, {\n    generate_data()\n  })\n\n  # ---- reset ----\n  observeEvent(input$reset_input, {\n    generate_data()\n    vars$off_values &lt;- c()\n  })\n\n  # ---- toggle ----\n  observeEvent(input$toggle_stats, {\n\n    vars$show_stats &lt;- !vars$show_stats\n\n    if (vars$show_stats) {\n      shinyjs::show(\"stats\")\n      shinyjs::show(\"reset_container\")\n      updateActionButton(session, \"toggle_stats\",\n                         label = \"Hide Guess History\")\n    } else {\n      shinyjs::hide(\"stats\")\n      shinyjs::hide(\"reset_container\")\n      updateActionButton(session, \"toggle_stats\",\n                         label = \"Show Guess History\")\n    }\n  })\n}\n\nshinyApp(ui, server)"
+  },
+  {
     "objectID": "teaching.html",
     "href": "teaching.html",
     "title": "Teaching",
@@ -91,32 +98,18 @@
     "text": "Listed below are all the courses I have taught at various institutions."
   },
   {
-    "objectID": "teaching.html#southern-utah-university",
-    "href": "teaching.html#southern-utah-university",
-    "title": "Teaching",
-    "section": "Southern Utah University",
-    "text": "Southern Utah University\nInfo on each of these courses can be found on the SUU course catalog page.\n\\(\\star\\) indicates that I developed the course.\n\nMATH 1010 – Intermediate Algebra\nSpring 2023; Fall 2023\nMATH 1030 – Contemporary Mathematics\nFall 2020\nMATH 1031 – Statistical Reasoning\nFall 2024;\nSummer 2024 (Online), ’25 (Online), ’26 (Online)\nMATH 1040 – Statistical Inference\nFall 2020, ’21, ’22, ’24, ’25;\nSpring 2021, ’22, ’23, ’24, ’25, ’26;\nSummer 2023, ’24, ’25, ’26\nMATH 1050 – College Algebra\nFall 2021; Spring 2021, ’22\nMATH 1190 – Introduction to Data Science\\(^\\star\\)\nFall 2024, ’25, ’26; Spring 2025\nMATH 1210 – Calculus I\nFall 2022; Spring 2024\nMATH 1220 – Calculus II\nSummer 2021, ’22; Spring 2023; Fall 2023\nMATH 2280 – Differential Equations\nSpring 2022\nMATH 2900 – Math Software: R\nFall 2023\nMATH 3150 – Applied Linear Models\\(^\\star\\)1\nFall 2021, ’22, ’23, ’24, ’25, ’26\nMATH 3190 – Statistical Learning for Data Science\\(^\\star\\)2\nSpring 2024, ’26\nMATH 3700 – Probability and Statistics\nSummer 2022, ’23, ’24, ’25, ’26\nMATH 3990 – Undergraduate Research\nSummer 2026; Fall 2026\nMATH 4810 – Data Science Capstone Project\\(^\\star\\)\nSpring 2025, ’26; Fall 2026\nMATH 4890 – Internship\nSpring 2026"
-  },
-  {
-    "objectID": "teaching.html#university-of-montana",
-    "href": "teaching.html#university-of-montana",
-    "title": "Teaching",
-    "section": "University of Montana",
-    "text": "University of Montana\n\nM 105 – Contemporary Mathematics\nFall 2016, ’17; Spring 2017\nM 171 – Calculus I\nFall 2018; Spring 2019\nM 191 – Calculus I Plus (Corequisite Class)\nSpring 2019\nSTAT 216 – Introduction to Statistics\nSummer 2017\nSTAT 341 – Intro. to Probability and Statistics\nFall 2019"
-  },
-  {
-    "objectID": "teaching.html#colorado-state-univeristy",
-    "href": "teaching.html#colorado-state-univeristy",
-    "title": "Teaching",
-    "section": "Colorado State Univeristy",
-    "text": "Colorado State Univeristy\n\nSTAT 301 – Introduction to Statistical Methods\nFall 2014; Spring 2015\nSTAT 311 – Statistics for Behavioral Science I\nSummer 2014"
-  },
-  {
     "objectID": "teaching.html#footnotes",
     "href": "teaching.html#footnotes",
     "title": "Teaching",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nThis class was originally MATH 2140 – Applied Statistics and then MATH 3150 – Applied Statistics before becoming MATH 3150 – Applied Linear Models.↩︎\nThis class was originally MATH 3190 – Fundamentals of Data Science before becoming MATH 3190 – Statistical Learning for Data Science.↩︎"
+  },
+  {
+    "objectID": "Shiny Apps/R Shiny App - kmeans.html",
+    "href": "Shiny Apps/R Shiny App - kmeans.html",
+    "title": "K-Means Shiny App",
+    "section": "",
+    "text": "#| '!! shinylive warning !!': |\n#|   shinylive does not work in self-contained HTML documents.\n#|   Please set `embed-resources: false` in your metadata.\n#| standalone: true\n#| viewerHeight: 600\nlibrary(shiny)\nui &lt;- fluidPage(\n  \n  # Put a titlePanel here\n  titlePanel(\"k-means clustering\"),\n  \n  sidebarLayout(\n    # Sidebar. Put your inputs inside the sidebarPanel\n    sidebarPanel(\n      selectInput('xcol', 'X Variable', names(iris)),\n      selectInput('ycol', 'Y Variable', names(iris),\n                  selected=names(iris)[[2]]),\n      numericInput('clusters', 'Cluster count', 3,\n                   min = 1, max = 9)\n    ),\n    \n    # Main panel. put your output plot here\n    mainPanel(\n      plotOutput('plot1')\n    )\n  )\n)\n\nserver &lt;- function(input, output, session) {\n  \n  selectedData &lt;- reactive({\n    iris[, c(input$xcol, input$ycol)]\n  })\n  \n  clusters &lt;- reactive({\n    kmeans(selectedData(), input$clusters)\n  })\n  \n  output$plot1 &lt;- renderPlot({\n    palette(c(\"#E41A1C\", \"#377EB8\", \"#4DAF4A\", \"#984EA3\",\n              \"#FF7F00\", \"#FFFF33\", \"#A65628\", \"#F781BF\", \"#999999\"))\n    \n    par(mar = c(5.1, 4.1, 0, 1))\n    plot(selectedData(),\n         col = clusters()$cluster,\n         pch = 20, cex = 3)\n    points(clusters()$centers, pch = 4, cex = 4, lwd = 4)\n  })\n}\n\nshinyApp(ui = ui, server = server)"
   },
   {
     "objectID": "index.html",

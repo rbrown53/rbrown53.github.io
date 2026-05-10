@@ -29,6 +29,12 @@ website:
             text: R Guide
       - href: workshops.qmd
         text: Conference Workshops
+      - text: Fun with R Shiny
+        menu:
+          - href: Shiny Apps/R Shiny App - kmeans.qmd
+            text: K-Means
+          - href: Shiny Apps/R Shiny App - correlation.qmd
+            text: Correlation Game
 
 
 format:

@@ -5,6 +5,8 @@ page-layout: full
 
 Listed below are all the courses I have taught at various institutions.
 
+::: {.panel-tabset}
+
 ## Southern Utah University
 Info on each of these courses can be found on the [SUU course catalog page](https://catalog.suu.edu/content.php?filter%5B27%5D=MATH&filter%5B29%5D=&filter%5Bcourse_type%5D=-1&filter%5Bkeyword%5D=&filter%5B32%5D=1&filter%5Bcpage%5D=1&cur_cat_oid=27&expand=&navoid=5575&search_database=Filter#acalog_template_course_filter).
 
@@ -68,3 +70,5 @@ Summer 2014
 [^1]: This class was originally MATH 2140 -- Applied Statistics and then MATH 3150 -- Applied Statistics before becoming MATH 3150 -- Applied Linear Models.
 
 [^2]: This class was originally MATH 3190 -- Fundamentals of Data Science before becoming MATH 3190 -- Statistical Learning for Data Science.
+
+:::
