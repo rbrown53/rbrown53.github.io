@@ -27,7 +27,10 @@ website:
             text: MATH 3700
           - href: Course Notes/R-Guide.pdf
             text: R Guide
-
+      - text: Research
+        menu:
+          - href: Research/Attainment_Gaps_Regression 4-7-25.html
+            text: SUU Attainment Gaps Dashboard
 
 
 format:
