@@ -1,0 +1,70 @@
+---
+title: "Teaching"
+page-layout: full
+---
+
+Listed below are all the courses I have taught at various institutions.
+
+## Southern Utah University
+Info on each of these courses can be found on the [SUU course catalog page](https://catalog.suu.edu/content.php?filter%5B27%5D=MATH&filter%5B29%5D=&filter%5Bcourse_type%5D=-1&filter%5Bkeyword%5D=&filter%5B32%5D=1&filter%5Bcpage%5D=1&cur_cat_oid=27&expand=&navoid=5575&search_database=Filter#acalog_template_course_filter).
+
+$\star$ indicates that I developed the course. 
+
+* **MATH 1010 -- Intermediate Algebra**\
+Spring 2023; Fall 2023
+* **MATH 1030 -- Contemporary Mathematics**\
+Fall 2020
+* **MATH 1031 -- Statistical Reasoning**\
+Fall 2024;\
+Summer 2024 (Online), '25 (Online), '26 (Online)
+* **MATH 1040 -- Statistical Inference**\
+Fall 2020, '21, '22, '24, '25;\
+Spring 2021, '22, '23, '24, '25, '26;\
+Summer 2023, '24, '25, '26
+* **MATH 1050 -- College Algebra**\
+Fall 2021; Spring 2021, '22
+* **MATH 1190 -- Introduction to Data Science**$^\star$\
+Fall 2024, '25, '26; Spring 2025
+* **MATH 1210 -- Calculus I**\
+Fall 2022; Spring 2024
+* **MATH 1220 -- Calculus II**\
+Summer 2021, '22; Spring 2023; Fall 2023
+* **MATH 2280 -- Differential Equations**\
+Spring 2022
+* **MATH 2900 -- Math Software: R**\
+Fall 2023
+* **MATH 3150 -- Applied Linear Models**$^\star$[^1]\
+Fall 2021, '22, '23, '24, '25, '26
+* **MATH 3190 -- Statistical Learning for Data Science**$^\star$[^2]\
+Spring 2024, '26
+* **MATH 3700 -- Probability and Statistics**\
+Summer 2022, '23, '24, '25, '26
+* **MATH 3990 -- Undergraduate Research**\
+Summer 2026; Fall 2026
+* **MATH 4810 -- Data Science Capstone Project**$^\star$\
+Spring 2025, '26; Fall 2026
+* **MATH 4890 -- Internship**\
+Spring 2026
+
+## University of Montana
+* **M 105 -- Contemporary Mathematics**\
+Fall 2016, '17; Spring 2017
+* **M 171 -- Calculus I**\
+Fall 2018; Spring 2019
+* **M 191 -- Calculus I Plus (Corequisite Class)**\
+Spring 2019
+* **STAT 216 -- Introduction to Statistics**\
+Summer 2017
+* **STAT 341 -- Intro. to Probability and Statistics**\
+Fall 2019
+
+## Colorado State Univeristy
+* **STAT 301 -- Introduction to Statistical Methods**\
+Fall 2014; Spring 2015
+* **STAT 311 -- Statistics for Behavioral Science I**\
+Summer 2014 
+
+
+[^1]: This class was originally MATH 2140 -- Applied Statistics and then MATH 3150 -- Applied Statistics before becoming MATH 3150 -- Applied Linear Models.
+
+[^2]: This class was originally MATH 3190 -- Fundamentals of Data Science before becoming MATH 3190 -- Statistical Learning for Data Science.

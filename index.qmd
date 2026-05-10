@@ -1,0 +1,22 @@
+---
+title: "Rick Brown"
+image: images/richardbrown1.jpg
+page-layout: full
+about:
+  template: trestles
+  image-width: 12em
+  image-shape: rounded
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/rbrown53
+    - icon: email
+      text: Email
+      href: mailto:richardbrown1@suu.edu  
+---
+
+## Bio
+
+I am currently an Assistant Professor Mathematics and the director of the data science program at [Southern Utah University](https://www.suu.edu/math/) where I teach primarily statistics and data science courses.
+
+I received a Bachelor's of Science in Mathematics with an option in Statistics from [California State University, Chico](https://www.csuchico.edu/academics/college/natural-sciences/departments/mathematics-statistics/), a Master's of Science in Statistics from [Colorado State University](https://statistics.colostate.edu) and a PhD in Applied Mathematics from the [University of Montana](https://www.umt.edu/math/). I worked as a Mathematical Statistician for the [United States Census Bureau ](https://www.census.gov) between obtaining my master's and going back to graduate school for my PhD.

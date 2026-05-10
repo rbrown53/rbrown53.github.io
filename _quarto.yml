@@ -1,0 +1,36 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  title: "Rick Brown"
+  navbar:
+    search: true
+    right:
+      - href: index.qmd
+        text: About
+      - href: teaching.qmd
+        text: Teaching
+      - text: Course Notes
+        menu: 
+          - href: Course Notes/Math 1040 Notes - All Chapters.pdf
+            text: MATH 1040
+          - href: Course Notes/Math 3150 Notes - All Chapters.pdf
+            text: MATH 3150
+          - href: Course Notes/Math 3190 Notes - All.pdf
+            text: MATH 3190
+          - href: Course Notes/Math 3700 Notes - All Chapters.pdf
+            text: MATH 3700
+          - href: Course Notes/R-Guide.pdf
+            text: R Guide
+
+
+
+format:
+  html:
+    theme: cosmo dark
+    css: styles.css
+    toc: true
+
+
+

@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Rick Brown",
+    "section": "",
+    "text": "I am currently an Assistant Professor Mathematics and the director of the data science program at Southern Utah University where I teach primarily statistics and data science courses.\nI received a Bachelor’s of Science in Mathematics with an option in Statistics from California State University, Chico, a Master’s of Science in Statistics from Colorado State University and a PhD in Applied Mathematics from the University of Montana. I worked as a Mathematical Statistician for the United States Census Bureau between obtaining my master’s and going back to graduate school for my PhD."
+  },
+  {
+    "objectID": "index.html#bio",
+    "href": "index.html#bio",
+    "title": "Rick Brown",
+    "section": "",
+    "text": "I am currently an Assistant Professor Mathematics and the director of the data science program at Southern Utah University where I teach primarily statistics and data science courses.\nI received a Bachelor’s of Science in Mathematics with an option in Statistics from California State University, Chico, a Master’s of Science in Statistics from Colorado State University and a PhD in Applied Mathematics from the University of Montana. I worked as a Mathematical Statistician for the United States Census Bureau between obtaining my master’s and going back to graduate school for my PhD."
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Listed below are all the courses I have taught at various institutions."
+  },
+  {
+    "objectID": "teaching.html#southern-utah-university",
+    "href": "teaching.html#southern-utah-university",
+    "title": "Teaching",
+    "section": "Southern Utah University",
+    "text": "Southern Utah University\nInfo on each of these courses can be found on the SUU course catalog page.\n\\(\\star\\) indicates that I developed the course.\n\nMATH 1010 – Intermediate Algebra\nSpring 2023; Fall 2023\nMATH 1030 – Contemporary Mathematics\nFall 2020\nMATH 1031 – Statistical Reasoning\nFall 2024;\nSummer 2024 (Online), ’25 (Online), ’26 (Online)\nMATH 1040 – Statistical Inference\nFall 2020, ’21, ’22, ’24, ’25;\nSpring 2021, ’22, ’23, ’24, ’25, ’26;\nSummer 2023, ’24, ’25, ’26\nMATH 1050 – College Algebra\nFall 2021; Spring 2021, ’22\nMATH 1190 – Introduction to Data Science\\(^\\star\\)\nFall 2024, ’25, ’26; Spring 2025\nMATH 1210 – Calculus I\nFall 2022; Spring 2024\nMATH 1220 – Calculus II\nSummer 2021, ’22; Spring 2023; Fall 2023\nMATH 2280 – Differential Equations\nSpring 2022\nMATH 2900 – Math Software: R\nFall 2023\nMATH 3150 – Applied Linear Models\\(^\\star\\)1\nFall 2021, ’22, ’23, ’24, ’25, ’26\nMATH 3190 – Statistical Learning for Data Science\\(^\\star\\)2\nSpring 2024, ’26\nMATH 3700 – Probability and Statistics\nSummer 2022, ’23, ’24, ’25, ’26\nMATH 3990 – Undergraduate Research\nSummer 2026; Fall 2026\nMATH 4810 – Data Science Capstone Project\\(^\\star\\)\nSpring 2025, ’26; Fall 2026\nMATH 4890 – Internship\nSpring 2026"
+  },
+  {
+    "objectID": "teaching.html#university-of-montana",
+    "href": "teaching.html#university-of-montana",
+    "title": "Teaching",
+    "section": "University of Montana",
+    "text": "University of Montana\n\nM 105 – Contemporary Mathematics\nFall 2016, ’17; Spring 2017\nM 171 – Calculus I\nFall 2018; Spring 2019\nM 191 – Calculus I Plus (Corequisite Class)\nSpring 2019\nSTAT 216 – Introduction to Statistics\nSummer 2017\nSTAT 341 – Intro. to Probability and Statistics\nFall 2019"
+  },
+  {
+    "objectID": "teaching.html#colorado-state-univeristy",
+    "href": "teaching.html#colorado-state-univeristy",
+    "title": "Teaching",
+    "section": "Colorado State Univeristy",
+    "text": "Colorado State Univeristy\n\nSTAT 301 – Introduction to Statistical Methods\nFall 2014; Spring 2015\nSTAT 311 – Statistics for Behavioral Science I\nSummer 2014"
+  },
+  {
+    "objectID": "teaching.html#footnotes",
+    "href": "teaching.html#footnotes",
+    "title": "Teaching",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThis class was originally MATH 2140 – Applied Statistics and then MATH 3150 – Applied Statistics before becoming MATH 3150 – Applied Linear Models.↩︎\nThis class was originally MATH 3190 – Fundamentals of Data Science before becoming MATH 3190 – Statistical Learning for Data Science.↩︎"
+  }
+]
