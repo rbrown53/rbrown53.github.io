@@ -35,7 +35,7 @@ Spring 2022
 Fall 2023
 * **MATH 3150 -- Applied Linear Models**$^\star$[^1]\
 Fall 2021, '22, '23, '24, '25, '26
-* **MATH 3190 -- Statistical Learning for Data Science**$^\star$[^2]\
+* [**MATH 3190 -- Statistical Learning for Data Science**](math3190s26.qmd)$^\star$[^2]\
 Spring 2024, '26
 * **MATH 3700 -- Probability and Statistics**\
 Summer 2022, '23, '24, '25, '26
