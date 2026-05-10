@@ -1,17 +1,52 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Rick Brown",
+    "objectID": "math3190s26.html",
+    "href": "math3190s26.html",
+    "title": "MATH 3190 – Fundamentals of Data Science Spring 2026",
     "section": "",
-    "text": "I am currently an Assistant Professor Mathematics and the director of the data science program at Southern Utah University where I teach primarily statistics and data science courses.\nI received a Bachelor’s of Science in Mathematics with an option in Statistics from California State University, Chico, a Master’s of Science in Statistics from Colorado State University and a PhD in Applied Mathematics from the University of Montana. I worked as a Mathematical Statistician for the United States Census Bureau between obtaining my master’s and going back to graduate school for my PhD."
+    "text": "This is the course page for MATH 3190 most recently taught in Spring 2026."
   },
   {
-    "objectID": "index.html#bio",
-    "href": "index.html#bio",
-    "title": "Rick Brown",
-    "section": "",
-    "text": "I am currently an Assistant Professor Mathematics and the director of the data science program at Southern Utah University where I teach primarily statistics and data science courses.\nI received a Bachelor’s of Science in Mathematics with an option in Statistics from California State University, Chico, a Master’s of Science in Statistics from Colorado State University and a PhD in Applied Mathematics from the University of Montana. I worked as a Mathematical Statistician for the United States Census Bureau between obtaining my master’s and going back to graduate school for my PhD."
+    "objectID": "math3190s26.html#syllabus-and-schedule",
+    "href": "math3190s26.html#syllabus-and-schedule",
+    "title": "MATH 3190 – Fundamentals of Data Science Spring 2026",
+    "section": "Syllabus and Schedule",
+    "text": "Syllabus and Schedule\n\nCourse Syllabus\nCourse Schedule"
+  },
+  {
+    "objectID": "math3190s26.html#course-notes",
+    "href": "math3190s26.html#course-notes",
+    "title": "MATH 3190 – Fundamentals of Data Science Spring 2026",
+    "section": "Course Notes",
+    "text": "Course Notes\n\nAll notes\nNotes 1 - Intro and GitHub\n\nNotes 1 Slides\nSource Code (Quarto File)\n\nNotes 2 - R Guide\n\nNotes 2 Slides\nSource Code (Quarto File)\n\nNotes 3 - Quarto\n\nNotes 3 Slides\nSource Code (Quarto File)\n\nNotes 4 - Databases and SQL\n\nNotes 4 Slides\nSource Code (Quarto File)\n\nNotes 5 - Verification and Resampling Methods\n\nSource Code (Quarto File)\n\nNotes 6 - Optimization\n\nSource Code (Quarto File)\n\nNotes 7 - Advanced Regression\n\nSource Code (Quarto File)\n\nNotes 8 - Dimension Reduction\n\nSource Code (Quarto File)\n\nNotes 9 - Bayesian Methods\n\nSource Code (Quarto File)\n\nNotes 10 - More Classification\n\nSource Code (Quarto File)\n\nNotes 11 - Time Series\n\nSource Code (Quarto File)\n\nR Reference Sheet\n\nSource Code (TeX File)\n\nUnix and GitHub Reference Sheet\n\nSource Code (TeX File)"
+  },
+  {
+    "objectID": "math3190s26.html#homework",
+    "href": "math3190s26.html#homework",
+    "title": "MATH 3190 – Fundamentals of Data Science Spring 2026",
+    "section": "Homework",
+    "text": "Homework\n\nHomework 0\n\nWord Document\nPDF File\n\nHomework 1\n\nHTML File\nPDF File\nQuarto File\n\nHomework 2\n\nHTML File\nPDF File\nQuarto File\n\nHomework 3\n\nHTML File\nPDF File\nQuarto File\n\nHomework 4\n\nHTML File\nPDF File\nQuarto File\n\nHomework 5\n\nHTML File\nPDF File\nQuarto File\n\nHomework 6\n\nHTML File\nPDF File\nQuarto File\n\nHomework 7\n\nHTML File\nPDF File\nQuarto File\n\nHomework 8\n\nHTML File\nPDF File\nQuarto File\n\nHomework 9\n\nHTML File\nPDF File\nQuarto File\n\nHomework 10\n\nHTML File\nPDF File\nQuarto File"
+  },
+  {
+    "objectID": "math3190s26.html#labs",
+    "href": "math3190s26.html#labs",
+    "title": "MATH 3190 – Fundamentals of Data Science Spring 2026",
+    "section": "Labs",
+    "text": "Labs\n\nLab 1 - Unix, Git, and GitHub\n\nWord Document\nPDF File\n\nLab 2 - R\n\nWord Document\nPDF File\n\nLab 3 - Quarto Website\n\nWord Document\nPDF File"
+  },
+  {
+    "objectID": "math3190s26.html#data-files",
+    "href": "math3190s26.html#data-files",
+    "title": "MATH 3190 – Fundamentals of Data Science Spring 2026",
+    "section": "Data Files",
+    "text": "Data Files\nThe data files can all be downloaded from here: Data Files Download (ZIP File)."
+  },
+  {
+    "objectID": "math3190s26.html#r-package",
+    "href": "math3190s26.html#r-package",
+    "title": "MATH 3190 – Fundamentals of Data Science Spring 2026",
+    "section": "R Package",
+    "text": "R Package\nThe GitHub repo for the R package associated with this course can be found here: https://github.com/rbrown53/math3190package."
   },
   {
     "objectID": "teaching.html",
@@ -47,5 +82,19 @@
     "title": "Teaching",
     "section": "Footnotes",
     "text": "Footnotes\n\n\nThis class was originally MATH 2140 – Applied Statistics and then MATH 3150 – Applied Statistics before becoming MATH 3150 – Applied Linear Models.↩︎\nThis class was originally MATH 3190 – Fundamentals of Data Science before becoming MATH 3190 – Statistical Learning for Data Science.↩︎"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Rick Brown",
+    "section": "",
+    "text": "I am currently an Assistant Professor Mathematics and the director of the data science program at Southern Utah University where I teach primarily statistics and data science courses.\nI received a Bachelor’s of Science in Mathematics with an option in Statistics from California State University, Chico, a Master’s of Science in Statistics from Colorado State University and a PhD in Applied Mathematics from the University of Montana. I worked as a Mathematical Statistician for the United States Census Bureau between obtaining my master’s and going back to graduate school for my PhD."
+  },
+  {
+    "objectID": "index.html#bio",
+    "href": "index.html#bio",
+    "title": "Rick Brown",
+    "section": "",
+    "text": "I am currently an Assistant Professor Mathematics and the director of the data science program at Southern Utah University where I teach primarily statistics and data science courses.\nI received a Bachelor’s of Science in Mathematics with an option in Statistics from California State University, Chico, a Master’s of Science in Statistics from Colorado State University and a PhD in Applied Mathematics from the University of Montana. I worked as a Mathematical Statistician for the United States Census Bureau between obtaining my master’s and going back to graduate school for my PhD."
   }
 ]

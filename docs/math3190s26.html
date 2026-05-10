@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Teaching – Rick Brown</title>
+<title>MATH 3190 – Fundamentals of Data Science Spring 2026 – Rick Brown</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -71,35 +71,6 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -126,7 +97,7 @@ window.Quarto = {
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./teaching.html" aria-current="page"> 
+    <a class="nav-link" href="./teaching.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -183,9 +154,12 @@ window.Quarto = {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#southern-utah-university" id="toc-southern-utah-university" class="nav-link active" data-scroll-target="#southern-utah-university">Southern Utah University</a></li>
-  <li><a href="#university-of-montana" id="toc-university-of-montana" class="nav-link" data-scroll-target="#university-of-montana">University of Montana</a></li>
-  <li><a href="#colorado-state-univeristy" id="toc-colorado-state-univeristy" class="nav-link" data-scroll-target="#colorado-state-univeristy">Colorado State Univeristy</a></li>
+  <li><a href="#syllabus-and-schedule" id="toc-syllabus-and-schedule" class="nav-link active" data-scroll-target="#syllabus-and-schedule">Syllabus and Schedule</a></li>
+  <li><a href="#course-notes" id="toc-course-notes" class="nav-link" data-scroll-target="#course-notes">Course Notes</a></li>
+  <li><a href="#homework" id="toc-homework" class="nav-link" data-scroll-target="#homework">Homework</a></li>
+  <li><a href="#labs" id="toc-labs" class="nav-link" data-scroll-target="#labs">Labs</a></li>
+  <li><a href="#data-files" id="toc-data-files" class="nav-link" data-scroll-target="#data-files">Data Files</a></li>
+  <li><a href="#r-package" id="toc-r-package" class="nav-link" data-scroll-target="#r-package">R Package</a></li>
   </ul>
 </nav>
     </div>
@@ -194,7 +168,7 @@ window.Quarto = {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Teaching</h1>
+<h1 class="title">MATH 3190 – Fundamentals of Data Science Spring 2026</h1>
 </div>
 
 
@@ -211,84 +185,181 @@ window.Quarto = {
 </header>
 
 
-<p>Listed below are all the courses I have taught at various institutions.</p>
-<section id="southern-utah-university" class="level2">
-<h2 class="anchored" data-anchor-id="southern-utah-university">Southern Utah University</h2>
-<p>Info on each of these courses can be found on the <a href="https://catalog.suu.edu/content.php?filter%5B27%5D=MATH&amp;filter%5B29%5D=&amp;filter%5Bcourse_type%5D=-1&amp;filter%5Bkeyword%5D=&amp;filter%5B32%5D=1&amp;filter%5Bcpage%5D=1&amp;cur_cat_oid=27&amp;expand=&amp;navoid=5575&amp;search_database=Filter#acalog_template_course_filter">SUU course catalog page</a>.</p>
-<p><span class="math inline">\(\star\)</span> indicates that I developed the course.</p>
+<!-- I created a Symlink called math3190 using the following code in terminal -->
+<!-- when in the website directory:  -->
+<!-- ln -s ~/'My Drive/Math 3190 - Fundamentals of Data Science/Spring 2026' math3190 -->
+<p>This is the course page for MATH 3190 most recently taught in Spring 2026.</p>
+<section id="syllabus-and-schedule" class="level2">
+<h2 class="anchored" data-anchor-id="syllabus-and-schedule">Syllabus and Schedule</h2>
 <ul>
-<li><strong>MATH 1010 – Intermediate Algebra</strong><br>
-Spring 2023; Fall 2023</li>
-<li><strong>MATH 1030 – Contemporary Mathematics</strong><br>
-Fall 2020</li>
-<li><strong>MATH 1031 – Statistical Reasoning</strong><br>
-Fall 2024;<br>
-Summer 2024 (Online), ’25 (Online), ’26 (Online)</li>
-<li><strong>MATH 1040 – Statistical Inference</strong><br>
-Fall 2020, ’21, ’22, ’24, ’25;<br>
-Spring 2021, ’22, ’23, ’24, ’25, ’26;<br>
-Summer 2023, ’24, ’25, ’26</li>
-<li><strong>MATH 1050 – College Algebra</strong><br>
-Fall 2021; Spring 2021, ’22</li>
-<li><strong>MATH 1190 – Introduction to Data Science</strong><span class="math inline">\(^\star\)</span><br>
-Fall 2024, ’25, ’26; Spring 2025</li>
-<li><strong>MATH 1210 – Calculus I</strong><br>
-Fall 2022; Spring 2024</li>
-<li><strong>MATH 1220 – Calculus II</strong><br>
-Summer 2021, ’22; Spring 2023; Fall 2023</li>
-<li><strong>MATH 2280 – Differential Equations</strong><br>
-Spring 2022</li>
-<li><strong>MATH 2900 – Math Software: R</strong><br>
-Fall 2023</li>
-<li><strong>MATH 3150 – Applied Linear Models</strong><span class="math inline">\(^\star\)</span><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a><br>
-Fall 2021, ’22, ’23, ’24, ’25, ’26</li>
-<li><strong>MATH 3190 – Statistical Learning for Data Science</strong><span class="math inline">\(^\star\)</span><a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a><br>
-Spring 2024, ’26</li>
-<li><strong>MATH 3700 – Probability and Statistics</strong><br>
-Summer 2022, ’23, ’24, ’25, ’26</li>
-<li><strong>MATH 3990 – Undergraduate Research</strong><br>
-Summer 2026; Fall 2026</li>
-<li><strong>MATH 4810 – Data Science Capstone Project</strong><span class="math inline">\(^\star\)</span><br>
-Spring 2025, ’26; Fall 2026</li>
-<li><strong>MATH 4890 – Internship</strong><br>
-Spring 2026</li>
+<li><a href="math3190/Syllabus/Math 3190 S26 Syllabus.pdf">Course Syllabus</a></li>
+<li><a href="math3190/3190 Tent. Schedule Spring 2026.pdf">Course Schedule</a></li>
 </ul>
 </section>
-<section id="university-of-montana" class="level2">
-<h2 class="anchored" data-anchor-id="university-of-montana">University of Montana</h2>
+<section id="course-notes" class="level2">
+<h2 class="anchored" data-anchor-id="course-notes">Course Notes</h2>
 <ul>
-<li><strong>M 105 – Contemporary Mathematics</strong><br>
-Fall 2016, ’17; Spring 2017</li>
-<li><strong>M 171 – Calculus I</strong><br>
-Fall 2018; Spring 2019</li>
-<li><strong>M 191 – Calculus I Plus (Corequisite Class)</strong><br>
-Spring 2019</li>
-<li><strong>STAT 216 – Introduction to Statistics</strong><br>
-Summer 2017</li>
-<li><strong>STAT 341 – Intro. to Probability and Statistics</strong><br>
-Fall 2019</li>
+<li><a href="Course Notes/Math 3190 Notes - All.pdf">All notes</a></li>
+<li><a href="math3190/Notes/Notes 1 - Intro Unix and GitHub/6 Slides/Notes-1---Intro_6_Slides.pdf">Notes 1 - Intro and GitHub</a>
+<ul>
+<li><a href="math3190/Notes/Notes 1 - Intro Unix and GitHub/Notes-1---Intro.pdf">Notes 1 Slides</a></li>
+<li><a href="math3190/Notes/Notes 1 - Intro Unix and GitHub/Notes 1 - Intro.qmd">Source Code (Quarto File)</a></li>
+</ul></li>
+<li><a href="math3190/Notes/Notes 2 - R/6 Slides/Notes-2---R-Guide_6_Slides.pdf">Notes 2 - R Guide</a>
+<ul>
+<li><a href="math3190/Notes/Notes 2 - R/Notes-2---R-Guide.pdf">Notes 2 Slides</a></li>
+<li><a href="math3190/Notes/Notes 2 - R/Notes 2 - R Guide.qmd">Source Code (Quarto File)</a></li>
+</ul></li>
+<li><a href="math3190/Notes/Notes 3 - Quarto/6 Slides/Notes-3---Quarto_6_Slides.pdf">Notes 3 - Quarto</a>
+<ul>
+<li><a href="math3190/Notes/Notes 3 - Quarto/Notes-3---Quarto.pdf">Notes 3 Slides</a></li>
+<li><a href="math3190/Notes/Notes 3 - Quarto/Notes 3 - Quarto.qmd">Source Code (Quarto File)</a></li>
+</ul></li>
+<li><a href="math3190/Notes/Notes 4 - SQL/6 Slides/Notes-4---Databases-and-SQL_6_Slides.pdf">Notes 4 - Databases and SQL</a>
+<ul>
+<li><a href="math3190/Notes/Notes 4 - SQL/Notes-4---Databases-and-SQL.pdf">Notes 4 Slides</a></li>
+<li><a href="math3190/Notes/Notes 4 - SQL/Notes 4 - Databases and SQL.qmd">Source Code (Quarto File)</a></li>
+</ul></li>
+<li><a href="math3190/Notes/Notes 5 - Verification Methods/Notes-5---Verification-Methods.pdf">Notes 5 - Verification and Resampling Methods</a>
+<ul>
+<li><a href="math3190/Notes/Notes 5 - Verification Methods/Notes 5 - Verification Methods.qmd">Source Code (Quarto File)</a></li>
+</ul></li>
+<li><a href="math3190/Notes/Notes 6 - Optimization/Notes-6---Optimization.pdf">Notes 6 - Optimization</a>
+<ul>
+<li><a href="math3190/Notes/Notes 6 - Optimization/Notes 6 - Optimization.qmd">Source Code (Quarto File)</a></li>
+</ul></li>
+<li><a href="math3190/Notes/Notes 7 - Advanced Regression/Notes-7---Advanced-Regression.pdf">Notes 7 - Advanced Regression</a>
+<ul>
+<li><a href="math3190/Notes/Notes 7 - Advanced Regression/Notes 7 - Advanced Regression.qmd">Source Code (Quarto File)</a></li>
+</ul></li>
+<li><a href="math3190/Notes/Notes 8 - Dimension Reduction/Notes-8---Dimension-Reduction.pdf">Notes 8 - Dimension Reduction</a>
+<ul>
+<li><a href="math3190/Notes/Notes 8 - Dimension Reduction/Notes 8 - Dimension Reduction.qmd">Source Code (Quarto File)</a></li>
+</ul></li>
+<li><a href="math3190/Notes/Notes 9 - Bayesian Methods/Notes-9---Bayesian-Methods.pdf">Notes 9 - Bayesian Methods</a>
+<ul>
+<li><a href="math3190/Notes/Notes 9 - Bayesian Methods/Notes 9 - Bayesian Methods.qmd">Source Code (Quarto File)</a></li>
+</ul></li>
+<li><a href="math3190/Notes/Notes 10 - More Classification/Notes-10---More-Classification.pdf">Notes 10 - More Classification</a>
+<ul>
+<li><a href="math3190/Notes/Notes 10 - More Classification/Notes 10 - More Classification.qmd">Source Code (Quarto File)</a></li>
+</ul></li>
+<li><a href="math3190/Notes/Notes 11 - Time Series/Notes-11---Time-Series.pdf">Notes 11 - Time Series</a>
+<ul>
+<li><a href="math3190/Notes/Notes 11 - Time Series/Notes 11 - Time Series.qmd">Source Code (Quarto File)</a></li>
+</ul></li>
+<li><a href="math3190/Reference Sheets/R Reference Sheet/R Reference Sheet.pdf">R Reference Sheet</a>
+<ul>
+<li><a href="math3190/Reference Sheets/R Reference Sheet/R Reference Sheet.tex">Source Code (TeX File)</a></li>
+</ul></li>
+<li><a href="math3190/Reference Sheets/Unix and Git Reference Sheet/Unix and Git Reference Sheet.pdf">Unix and GitHub Reference Sheet</a>
+<ul>
+<li><a href="math3190/Reference Sheets/Unix and Git Reference Sheet/Unix and Git Reference Sheet.tex">Source Code (TeX File)</a></li>
+</ul></li>
 </ul>
 </section>
-<section id="colorado-state-univeristy" class="level2">
-<h2 class="anchored" data-anchor-id="colorado-state-univeristy">Colorado State Univeristy</h2>
+<section id="homework" class="level2">
+<h2 class="anchored" data-anchor-id="homework">Homework</h2>
 <ul>
-<li><strong>STAT 301 – Introduction to Statistical Methods</strong><br>
-Fall 2014; Spring 2015</li>
-<li><strong>STAT 311 – Statistics for Behavioral Science I</strong><br>
-Summer 2014</li>
+<li>Homework 0
+<ul>
+<li><a href="math3190/Homework/Homework 0/Homework 0.docx">Word Document</a></li>
+<li><a href="math3190/Homework/Homework 0/Homework 0.pdf">PDF File</a></li>
+</ul></li>
+<li>Homework 1
+<ul>
+<li><a href="math3190/Homework/Homework 1/Homework 1.html">HTML File</a></li>
+<li><a href="math3190/Homework/Homework 1/Homework-1.pdf">PDF File</a></li>
+<li><a href="math3190/Homework/Homework 1/Homework 1.qmd">Quarto File</a></li>
+</ul></li>
+<li>Homework 2
+<ul>
+<li><a href="math3190/Homework/Homework 2/Homework 2.html">HTML File</a></li>
+<li><a href="math3190/Homework/Homework 2/Homework-2.pdf">PDF File</a></li>
+<li><a href="math3190/Homework/Homework 2/Homework 2.qmd">Quarto File</a></li>
+</ul></li>
+<li>Homework 3
+<ul>
+<li><a href="math3190/Homework/Homework 3/Homework 3.html">HTML File</a></li>
+<li><a href="math3190/Homework/Homework 3/Homework-3.pdf">PDF File</a></li>
+<li><a href="math3190/Homework/Homework 3/Homework 3.qmd">Quarto File</a></li>
+</ul></li>
+<li>Homework 4
+<ul>
+<li><a href="math3190/Homework/Homework 4/Homework 4.html">HTML File</a></li>
+<li><a href="math3190/Homework/Homework 4/Homework-4.pdf">PDF File</a></li>
+<li><a href="math3190/Homework/Homework 4/Homework 4.qmd">Quarto File</a></li>
+</ul></li>
+<li>Homework 5
+<ul>
+<li><a href="math3190/Homework/Homework 5/Homework 5.html">HTML File</a></li>
+<li><a href="math3190/Homework/Homework 5/Homework-5.pdf">PDF File</a></li>
+<li><a href="math3190/Homework/Homework 5/Homework 5.qmd">Quarto File</a></li>
+</ul></li>
+<li>Homework 6
+<ul>
+<li><a href="math3190/Homework/Homework 6/Homework 6.html">HTML File</a></li>
+<li><a href="math3190/Homework/Homework 6/Homework-6.pdf">PDF File</a></li>
+<li><a href="math3190/Homework/Homework 6/Homework 6.qmd">Quarto File</a></li>
+</ul></li>
+<li>Homework 7
+<ul>
+<li><a href="math3190/Homework/Homework 7/Homework 7.html">HTML File</a></li>
+<li><a href="math3190/Homework/Homework 7/Homework-7.pdf">PDF File</a></li>
+<li><a href="math3190/Homework/Homework 7/Homework 7.qmd">Quarto File</a></li>
+</ul></li>
+<li>Homework 8
+<ul>
+<li><a href="math3190/Homework/Homework 8/Homework 8.html">HTML File</a></li>
+<li><a href="math3190/Homework/Homework 8/Homework-8.pdf">PDF File</a></li>
+<li><a href="math3190/Homework/Homework 8/Homework 8.qmd">Quarto File</a></li>
+</ul></li>
+<li>Homework 9
+<ul>
+<li><a href="math3190/Homework/Homework 9/Homework 9.html">HTML File</a></li>
+<li><a href="math3190/Homework/Homework 9/Homework-9.pdf">PDF File</a></li>
+<li><a href="math3190/Homework/Homework 9/Homework 9.qmd">Quarto File</a></li>
+</ul></li>
+<li>Homework 10
+<ul>
+<li><a href="math3190/Homework/Homework 10/Homework 10.html">HTML File</a></li>
+<li><a href="math3190/Homework/Homework 10/Homework-10.pdf">PDF File</a></li>
+<li><a href="math3190/Homework/Homework 10/Homework 10.qmd">Quarto File</a></li>
+</ul></li>
 </ul>
+</section>
+<section id="labs" class="level2">
+<h2 class="anchored" data-anchor-id="labs">Labs</h2>
+<ul>
+<li>Lab 1 - Unix, Git, and GitHub
+<ul>
+<li><a href="math3190/Labs/Lab 1 - Unix, Git, GitHub/Lab 1 - Unix, Git, and GitHub.docx">Word Document</a></li>
+<li><a href="math3190/Labs/Lab 1 - Unix, Git, GitHub/Lab 1 - Unix, Git, and GitHub.pdf">PDF File</a></li>
+</ul></li>
+<li>Lab 2 - R
+<ul>
+<li><a href="math3190/Labs/Lab 2 - R/Lab 2 - R.docx">Word Document</a></li>
+<li><a href="math3190/Labs/Lab 2 - R/Lab 2 - R.pdf">PDF File</a></li>
+</ul></li>
+<li>Lab 3 - Quarto Website
+<ul>
+<li><a href="math3190/Labs/Lab 3 - Quarto Website/Lab 3 - Quarto Website.docx">Word Document</a></li>
+<li><a href="math3190/Labs/Lab 3 - Quarto Website/Lab 3 - Quarto Website.pdf">PDF File</a></li>
+</ul></li>
+</ul>
+</section>
+<section id="data-files" class="level2">
+<h2 class="anchored" data-anchor-id="data-files">Data Files</h2>
+<p>The data files can all be downloaded from here: <a href="math3190/Data/math3190_all_data.zip">Data Files Download (ZIP File)</a>.</p>
+</section>
+<section id="r-package" class="level2">
+<h2 class="anchored" data-anchor-id="r-package">R Package</h2>
+<p>The GitHub repo for the <strong>R</strong> package associated with this course can be found here: <a href="https://github.com/rbrown53/math3190package">https://github.com/rbrown53/math3190package</a>.</p>
 
 
 </section>
 
-
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
-
-<ol>
-<li id="fn1"><p>This class was originally MATH 2140 – Applied Statistics and then MATH 3150 – Applied Statistics before becoming MATH 3150 – Applied Linear Models.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>This class was originally MATH 3190 – Fundamentals of Data Science before becoming MATH 3190 – Statistical Learning for Data Science.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section></div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

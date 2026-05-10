@@ -2,16 +2,13 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.36">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Teaching – Rick Brown</title>
+<title>MATH 3190 Homework 1</title>
 <style>
-/* Default styles provided by pandoc.
-** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
-*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -23,183 +20,77 @@ ul.task-list li input[type="checkbox"] {
   margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
   vertical-align: middle;
 }
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-45431c2918bd31147ddb3fa7038bb99f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<script id="quarto-search-options" type="application/json">{
-  "location": "navbar",
-  "copy-button": false,
-  "collapse-after": 3,
-  "panel-placement": "end",
-  "type": "overlay",
-  "limit": 50,
-  "keyboard-shortcut": [
-    "f",
-    "/",
-    "s"
-  ],
-  "show-item-context": false,
-  "language": {
-    "search-no-results-text": "No results",
-    "search-matching-documents-text": "matching documents",
-    "search-copy-link-title": "Copy link to search",
-    "search-hide-matches-text": "Hide additional matches",
-    "search-more-match-text": "more match in this document",
-    "search-more-matches-text": "more matches in this document",
-    "search-clear-button-title": "Clear",
-    "search-text-placeholder": "",
-    "search-detached-cancel-button-title": "Cancel",
-    "search-submit-button-title": "Submit",
-    "search-label": "Search"
-  }
-}</script>
+<script src="Homework 1_files/libs/clipboard/clipboard.min.js"></script>
+<script src="Homework 1_files/libs/quarto-html/quarto.js" type="module"></script>
+<script src="Homework 1_files/libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="Homework 1_files/libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="Homework 1_files/libs/quarto-html/popper.min.js"></script>
+<script src="Homework 1_files/libs/quarto-html/tippy.umd.min.js"></script>
+<script src="Homework 1_files/libs/quarto-html/anchor.min.js"></script>
+<link href="Homework 1_files/libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="Homework 1_files/libs/quarto-html/quarto-syntax-highlighting-7b89279ff1a6dce999919e0e67d4d9ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="Homework 1_files/libs/bootstrap/bootstrap.min.js"></script>
+<link href="Homework 1_files/libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="Homework 1_files/libs/bootstrap/bootstrap-d6a003b94517c951b2d65075d42fb01b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
-
-<link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="fullcontent quarto-light">
 
-<div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
-    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
-      <div class="navbar-container container-fluid">
-      <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
-    <span class="navbar-title">Rick Brown</span>
-    </a>
-  </div>
-            <div id="quarto-search" class="" title="Search"></div>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
-  <span class="navbar-toggler-icon"></span>
-</button>
-          <div class="collapse navbar-collapse" id="navbarCollapse">
-            <ul class="navbar-nav navbar-nav-scroll ms-auto">
-  <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
-<span class="menu-text">About</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link active" href="./teaching.html" aria-current="page"> 
-<span class="menu-text">Teaching</span></a>
-  </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-course-pages" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Course Pages</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-course-pages">    
-        <li>
-    <a class="dropdown-item" href="./math3190s26.html">
- <span class="dropdown-text">MATH 3190 Spring 2026</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-course-notes-pdfs" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Course Notes PDFs</span>
-    </a>
-    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-course-notes-pdfs">    
-        <li>
-    <a class="dropdown-item" href="./Course Notes/Math 1040 Notes - All Chapters.pdf">
- <span class="dropdown-text">MATH 1040</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./Course Notes/Math 3150 Notes - All Chapters.pdf">
- <span class="dropdown-text">MATH 3150</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./Course Notes/Math 3190 Notes - All.pdf">
- <span class="dropdown-text">MATH 3190</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./Course Notes/Math 3700 Notes - All Chapters.pdf">
- <span class="dropdown-text">MATH 3700</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./Course Notes/R-Guide.pdf">
- <span class="dropdown-text">R Guide</span></a>
-  </li>  
-    </ul>
-  </li>
-</ul>
-          </div> <!-- /navcollapse -->
-            <div class="quarto-navbar-tools">
-</div>
-      </div> <!-- /container-fluid -->
-    </nav>
-</header>
-<!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
-<!-- sidebar -->
-<!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#southern-utah-university" id="toc-southern-utah-university" class="nav-link active" data-scroll-target="#southern-utah-university">Southern Utah University</a></li>
-  <li><a href="#university-of-montana" id="toc-university-of-montana" class="nav-link" data-scroll-target="#university-of-montana">University of Montana</a></li>
-  <li><a href="#colorado-state-univeristy" id="toc-colorado-state-univeristy" class="nav-link" data-scroll-target="#colorado-state-univeristy">Colorado State Univeristy</a></li>
-  </ul>
-</nav>
-    </div>
-<!-- main -->
-<main class="content column-page-left" id="quarto-document-content">
+<div id="quarto-content" class="page-columns page-rows-contents page-layout-article">
+
+<main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Teaching</h1>
+<h1 class="title"><strong>MATH 3190 Homework 1</strong></h1>
+<p class="subtitle lead"></p><p>Due January 29, 2026<br>
+Focus: Notes 1-3<br>
+Total Points: 90 + 10 (Self-Critique Comment and Uploading to GitHub) = 100</p><p></p>
 </div>
 
 
 
-<div class="quarto-title-meta column-page-left">
+<div class="quarto-title-meta">
 
     
   
@@ -211,84 +102,79 @@ window.Quarto = {
 </header>
 
 
-<p>Listed below are all the courses I have taught at various institutions.</p>
-<section id="southern-utah-university" class="level2">
-<h2 class="anchored" data-anchor-id="southern-utah-university">Southern Utah University</h2>
-<p>Info on each of these courses can be found on the <a href="https://catalog.suu.edu/content.php?filter%5B27%5D=MATH&amp;filter%5B29%5D=&amp;filter%5Bcourse_type%5D=-1&amp;filter%5Bkeyword%5D=&amp;filter%5B32%5D=1&amp;filter%5Bcpage%5D=1&amp;cur_cat_oid=27&amp;expand=&amp;navoid=5575&amp;search_database=Filter#acalog_template_course_filter">SUU course catalog page</a>.</p>
-<p><span class="math inline">\(\star\)</span> indicates that I developed the course.</p>
-<ul>
-<li><strong>MATH 1010 – Intermediate Algebra</strong><br>
-Spring 2023; Fall 2023</li>
-<li><strong>MATH 1030 – Contemporary Mathematics</strong><br>
-Fall 2020</li>
-<li><strong>MATH 1031 – Statistical Reasoning</strong><br>
-Fall 2024;<br>
-Summer 2024 (Online), ’25 (Online), ’26 (Online)</li>
-<li><strong>MATH 1040 – Statistical Inference</strong><br>
-Fall 2020, ’21, ’22, ’24, ’25;<br>
-Spring 2021, ’22, ’23, ’24, ’25, ’26;<br>
-Summer 2023, ’24, ’25, ’26</li>
-<li><strong>MATH 1050 – College Algebra</strong><br>
-Fall 2021; Spring 2021, ’22</li>
-<li><strong>MATH 1190 – Introduction to Data Science</strong><span class="math inline">\(^\star\)</span><br>
-Fall 2024, ’25, ’26; Spring 2025</li>
-<li><strong>MATH 1210 – Calculus I</strong><br>
-Fall 2022; Spring 2024</li>
-<li><strong>MATH 1220 – Calculus II</strong><br>
-Summer 2021, ’22; Spring 2023; Fall 2023</li>
-<li><strong>MATH 2280 – Differential Equations</strong><br>
-Spring 2022</li>
-<li><strong>MATH 2900 – Math Software: R</strong><br>
-Fall 2023</li>
-<li><strong>MATH 3150 – Applied Linear Models</strong><span class="math inline">\(^\star\)</span><a href="#fn1" class="footnote-ref" id="fnref1" role="doc-noteref"><sup>1</sup></a><br>
-Fall 2021, ’22, ’23, ’24, ’25, ’26</li>
-<li><strong>MATH 3190 – Statistical Learning for Data Science</strong><span class="math inline">\(^\star\)</span><a href="#fn2" class="footnote-ref" id="fnref2" role="doc-noteref"><sup>2</sup></a><br>
-Spring 2024, ’26</li>
-<li><strong>MATH 3700 – Probability and Statistics</strong><br>
-Summer 2022, ’23, ’24, ’25, ’26</li>
-<li><strong>MATH 3990 – Undergraduate Research</strong><br>
-Summer 2026; Fall 2026</li>
-<li><strong>MATH 4810 – Data Science Capstone Project</strong><span class="math inline">\(^\star\)</span><br>
-Spring 2025, ’26; Fall 2026</li>
-<li><strong>MATH 4890 – Internship</strong><br>
-Spring 2026</li>
-</ul>
+<p>Note that your homework should be completed in Quarto. You can just add your answers and code to this document in the appropriate part. The file should be rendered as an html document or pdf document (html is quicker to render and you will need an installation of LaTeX to render as a pdf). You will “turn in” this homework by uploading the files, the .qmd and output file, to your GitHub <code>Math_3190_Assignment</code> repository in the <code>Homework/Homework_1</code> directory. Make sure all supporting files (if there are any) are in this directory as well. You should use <code>git</code> and <code>Unix</code> commands in a terminal for this (i.e.&nbsp;don’t manually upload files to GitHub). In addition, you will submit just your html or pdf file on Canvas to unlock the solutions.</p>
+<p>Don’t forget to also put a <u>self-critique comment</u> on Canvas indicating what you did correctly and incorrectly and include any questions you may have about the assignment after submitting the assignment and thoroughly looking through the solutions.</p>
+<section id="problem-1-18-points" class="level1">
+<h1>Problem 1 (18 points)</h1>
+<p>In <u>two different code chunks</u>, write two functions called <code>gghist</code> and <code>ggbox</code>. The first code chunk is already given below, but you’ll need to add the second one. The <code>gghist</code> function should create a ggplot histogram of a variable that is given as a vector. The <code>ggbox</code> function should create a ggplot box plot when a single numeric vector is given or it should create side-by-side box plots if one numeric and one categorical variables are given. You can check if a vector is numeric with the <code>is.numeric()</code> function. Allow the user to indicate whether it should be horizontal or vertical box plots. Make sure you set <code>echo</code> and <code>eval</code> both to <code>true</code> for these code chunks. Also make sure to label the code chunks.</p>
+<div class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Put gghist function here.</span></span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
 </section>
-<section id="university-of-montana" class="level2">
-<h2 class="anchored" data-anchor-id="university-of-montana">University of Montana</h2>
-<ul>
-<li><strong>M 105 – Contemporary Mathematics</strong><br>
-Fall 2016, ’17; Spring 2017</li>
-<li><strong>M 171 – Calculus I</strong><br>
-Fall 2018; Spring 2019</li>
-<li><strong>M 191 – Calculus I Plus (Corequisite Class)</strong><br>
-Spring 2019</li>
-<li><strong>STAT 216 – Introduction to Statistics</strong><br>
-Summer 2017</li>
-<li><strong>STAT 341 – Intro. to Probability and Statistics</strong><br>
-Fall 2019</li>
-</ul>
+<section id="problem-2-57-points" class="level1">
+<h1>Problem 2 (57 points)</h1>
+<section id="part-a-6-points" class="level3">
+<h3 class="anchored" data-anchor-id="part-a-6-points">Part a (6 points)</h3>
+<p>Learn about the built-in <code>read.fwf()</code> <strong>R</strong> function for use in downloading data from a URL into <strong>R</strong>. The <code>widths</code> and <code>strip.white</code> options will be especially useful here. Use this function to download the scores for all college basketball games for the 2024-2025 season <a href="http://kenpom.com/cbbga26.txt">http://kenpom.com/cbbga26.txt</a> and then convert it to a tibble (load the <code>tidyverse</code> package first). The second team listed per line is the home team. It is not clear what the numbers, letters, or city names indicate after the second listed score. Notice that this is a “live” file that gets updated every day! So, your tibble size may change if you work on this assignment over the course of several days. That’s fine. Give the code you used to download these data in a labeled code chunk.</p>
+<p>Now lets practice using our tidy data/tidyverse tools! Using your <code>cbbga</code> tibble, try doing the following. In each part, save the object as a new tibble (like <code>cbbga2</code>, <code>cbbga3</code>, etc) and in each subsequent part, use the tibble you created in the previous part.</p>
 </section>
-<section id="colorado-state-univeristy" class="level2">
-<h2 class="anchored" data-anchor-id="colorado-state-univeristy">Colorado State Univeristy</h2>
-<ul>
-<li><strong>STAT 301 – Introduction to Statistical Methods</strong><br>
-Fall 2014; Spring 2015</li>
-<li><strong>STAT 311 – Statistics for Behavioral Science I</strong><br>
-Summer 2014</li>
-</ul>
-
-
+<section id="part-b-2-points" class="level3">
+<h3 class="anchored" data-anchor-id="part-b-2-points">Part b (2 points)</h3>
+<p>Use <code>rename()</code> to rename all of your variables to names that make sense. Then print the first six rows of the new tibble using the <code>head()</code> function.</p>
+</section>
+<section id="part-c-2-points" class="level3">
+<h3 class="anchored" data-anchor-id="part-c-2-points">Part c (2 points)</h3>
+<p>Use <code>mutate()</code> to create a new column that gives the score differences (home team score minus away team score). Then print the first six rows of the new tibble using the <code>head()</code> function.</p>
+</section>
+<section id="part-d-2-points" class="level3">
+<h3 class="anchored" data-anchor-id="part-d-2-points">Part d (2 points)</h3>
+<p>Use <code>arrange()</code> to sort the data set by the home team alphabetically. Then print the first six rows of the new tibble using the <code>head()</code> function.</p>
+</section>
+<section id="part-e-2-points" class="level3">
+<h3 class="anchored" data-anchor-id="part-e-2-points">Part e (2 points)</h3>
+<p>Use <code>select()</code> to remove the extra variable(s) that had that irrelevant information at the end of each line. Note: you can select every variable except one by using <code>!</code>. Then print the first six rows of the new tibble using the <code>head()</code> function.</p>
+</section>
+<section id="part-f-3-points" class="level3">
+<h3 class="anchored" data-anchor-id="part-f-3-points">Part f (3 points)</h3>
+<p>Put parts a-e all together in one piping expression (with 5 pipes) and save this as a new object in <strong>R</strong>.</p>
+</section>
+<section id="part-g-3-points" class="level3">
+<h3 class="anchored" data-anchor-id="part-g-3-points">Part g (3 points)</h3>
+<p>Use <code>filter()</code> to reduce the data down to only games played in 2025 (you could use the <code>lubridate</code> package for this, since it specializes in dealing with dates, but some base <strong>R</strong> packages will also work). Save this in a new tibble. <strong>We will use this tibble with only the 2025 years from here on out</strong>.</p>
+</section>
+<section id="part-h-4-points" class="level3">
+<h3 class="anchored" data-anchor-id="part-h-4-points">Part h (4 points)</h3>
+<p>Write a function that will filter the tibble to only games played by a given team. Demonstrate your function by displaying games played by SUU in 2025.</p>
+</section>
+<section id="part-i-7-points" class="level3">
+<h3 class="anchored" data-anchor-id="part-i-7-points">Part i (7 points)</h3>
+<p>Use <code>summarize()</code> to extract SUU’s win/loss record and winning percentage for their 2025 games. Hint: using the <code>case_when()</code> function inside of a <code>mutate()</code> function to create a new variable that indicates whether SUU won or lost is helpful. You can verify on the Internet that SUU had 4 wins and 10 losses in 2025, so if your code retruns those values, you did it correctly.</p>
+</section>
+<section id="part-j-7-points" class="level3">
+<h3 class="anchored" data-anchor-id="part-j-7-points">Part j (7 points)</h3>
+<p>Generalize this by writing a function that will do this for a given team, and create a tibble with this information for all teams. Arrange this tibble first by winning percentage (descending) and by team (alphabetically) if there are any ties when it comes to winning percentage. A <code>for</code> loop and the <code>add_row()</code> function may be useful here.</p>
+</section>
+<section id="part-k-5-points" class="level3">
+<h3 class="anchored" data-anchor-id="part-k-5-points">Part k (5 points)</h3>
+<p>With only the 2025 games, use the <code>gghist()</code> you wrote in Problem 1 on the score differences variable you created in part c.&nbsp;Add appropriate labels and a title to your graph. Also, use the <code>#| fig-width:</code>, <code>#| fig-height:</code>, <code>#| out-width:</code>, and <code>#| fig-align:</code> code chunk options to center the figure and then to adjust your figure to a size you like. Play around with different sizes to see what those options adjust.</p>
+</section>
+<section id="part-l-9-points" class="level3">
+<h3 class="anchored" data-anchor-id="part-l-9-points">Part l (9 points)</h3>
+<p>Filter the tibble with all 2025 games to only include Utah Tech or Southern Utah, then crate a tibble or data frame where each row is a game played by either team that has one column indicating the school, Utah Tech or Southern Utah, and a second column indicating the number of points that team played, regardless of whether the team was home or away. Then use your <code>ggbox()</code> function to create a side-by-side boxplot of number of points scored in all 2025 games for each team.</p>
+<p>Note, this is a little challenging. The most straightforward way to do this is to use the <code>pivot_longer()</code> function with <code>cols =</code> the names of the two columns that have the away and the home teams (the names of these columns should not be in quotes, but they should be in a vector <code>c()</code>). Try to do this yourself first, but using AI for some help is fine.</p>
+</section>
+<section id="part-m-5-points" class="level3">
+<h3 class="anchored" data-anchor-id="part-m-5-points">Part m (5 points)</h3>
+<p>Create one more appropriate graphs for the 2025 basketball data. This graph could be anything you’d like as long as you use <code>ggplot2</code>, it shows something meaningful, and it is not the same as the graphs you made in parts k or l.</p>
+</section>
+</section>
+<section id="problem-3-15-points" class="level1">
+<h1>Problem 3 (15 points)</h1>
+<p>Repeat parts b-e and g of Problem 2 using Python in Quarto. First, pass the original object that you read in from the website to Python without any changes to it (you do not need to read the file from the web in Python, but you can if you’d like) and then use <code>pandas</code> (or <code>polars</code> if you’d like) to rename the columns as indicated in part b, add the columns specified in part c, arrange the data as in part d, drop the “garbage” column as in part e, and filter it down as in part g. The <code>pandas</code> functions <code>rename</code>, <code>assign</code> (instead of <code>mutate</code>), <code>drop</code> (instead of <code>select</code>) and <code>str.contains</code> (used to select the right rows) will be useful here. Be sure to follow the guide in Notes 3 to properly install Python, install the <code>pandas</code> library and to load it in <strong>R</strong>.</p>
 </section>
 
-
-<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document" role="doc-endnotes"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
-
-<ol>
-<li id="fn1"><p>This class was originally MATH 2140 – Applied Statistics and then MATH 3150 – Applied Statistics before becoming MATH 3150 – Applied Linear Models.<a href="#fnref1" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-<li id="fn2"><p>This class was originally MATH 3190 – Fundamentals of Data Science before becoming MATH 3190 – Statistical Learning for Data Science.<a href="#fnref2" class="footnote-back" role="doc-backlink">↩︎</a></p></li>
-</ol>
-</section></div></main> <!-- /main -->
+</main>
+<!-- /main column -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";

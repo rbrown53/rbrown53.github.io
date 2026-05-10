@@ -1,0 +1,115 @@
+---
+title: "MATH 3190 -- Fundamentals of Data Science Spring 2026"
+page-layout: full
+---
+
+<!-- I created a Symlink called math3190 using the following code in terminal -->
+<!-- when in the website directory:  -->
+<!-- ln -s ~/'My Drive/Math 3190 - Fundamentals of Data Science/Spring 2026' math3190 -->
+
+This is the course page for MATH 3190 most recently taught in Spring 2026.
+
+## Syllabus and Schedule
+
+* [Course Syllabus](math3190/Syllabus/Math 3190 S26 Syllabus.pdf)
+* [Course Schedule](math3190/3190 Tent. Schedule Spring 2026.pdf)
+
+
+## Course Notes
+
+* [All notes](Course Notes/Math 3190 Notes - All.pdf)
+* [Notes 1 - Intro and GitHub](math3190/Notes/Notes 1 - Intro Unix and GitHub/6 Slides/Notes-1---Intro_6_Slides.pdf)
+  - [Notes 1 Slides](math3190/Notes/Notes 1 - Intro Unix and GitHub/Notes-1---Intro.pdf)
+  - [Source Code (Quarto File)](math3190/Notes/Notes 1 - Intro Unix and GitHub/Notes 1 - Intro.qmd)
+* [Notes 2 - R Guide](math3190/Notes/Notes 2 - R/6 Slides/Notes-2---R-Guide_6_Slides.pdf)
+  - [Notes 2 Slides](math3190/Notes/Notes 2 - R/Notes-2---R-Guide.pdf)
+  - [Source Code (Quarto File)](math3190/Notes/Notes 2 - R/Notes 2 - R Guide.qmd)
+* [Notes 3 - Quarto](math3190/Notes/Notes 3 - Quarto/6 Slides/Notes-3---Quarto_6_Slides.pdf)
+  - [Notes 3 Slides](math3190/Notes/Notes 3 - Quarto/Notes-3---Quarto.pdf)
+  - [Source Code (Quarto File)](math3190/Notes/Notes 3 - Quarto/Notes 3 - Quarto.qmd)
+* [Notes 4 - Databases and SQL](math3190/Notes/Notes 4 - SQL/6 Slides/Notes-4---Databases-and-SQL_6_Slides.pdf)
+  - [Notes 4 Slides](math3190/Notes/Notes 4 - SQL/Notes-4---Databases-and-SQL.pdf)
+  - [Source Code (Quarto File)](math3190/Notes/Notes 4 - SQL/Notes 4 - Databases and SQL.qmd)
+* [Notes 5 - Verification and Resampling Methods](math3190/Notes/Notes 5 - Verification Methods/Notes-5---Verification-Methods.pdf)
+  - [Source Code (Quarto File)](math3190/Notes/Notes 5 - Verification Methods/Notes 5 - Verification Methods.qmd)
+* [Notes 6 - Optimization](math3190/Notes/Notes 6 - Optimization/Notes-6---Optimization.pdf)
+  - [Source Code (Quarto File)](math3190/Notes/Notes 6 - Optimization/Notes 6 - Optimization.qmd)
+* [Notes 7 - Advanced Regression](math3190/Notes/Notes 7 - Advanced Regression/Notes-7---Advanced-Regression.pdf)
+  - [Source Code (Quarto File)](math3190/Notes/Notes 7 - Advanced Regression/Notes 7 - Advanced Regression.qmd)
+* [Notes 8 - Dimension Reduction](math3190/Notes/Notes 8 - Dimension Reduction/Notes-8---Dimension-Reduction.pdf)
+  - [Source Code (Quarto File)](math3190/Notes/Notes 8 - Dimension Reduction/Notes 8 - Dimension Reduction.qmd)
+* [Notes 9 - Bayesian Methods](math3190/Notes/Notes 9 - Bayesian Methods/Notes-9---Bayesian-Methods.pdf)
+  - [Source Code (Quarto File)](math3190/Notes/Notes 9 - Bayesian Methods/Notes 9 - Bayesian Methods.qmd)
+* [Notes 10 - More Classification](math3190/Notes/Notes 10 - More Classification/Notes-10---More-Classification.pdf)
+  - [Source Code (Quarto File)](math3190/Notes/Notes 10 - More Classification/Notes 10 - More Classification.qmd)
+* [Notes 11 - Time Series](math3190/Notes/Notes 11 - Time Series/Notes-11---Time-Series.pdf)
+  - [Source Code (Quarto File)](math3190/Notes/Notes 11 - Time Series/Notes 11 - Time Series.qmd)
+* [R Reference Sheet](math3190/Reference Sheets/R Reference Sheet/R Reference Sheet.pdf)
+  - [Source Code (TeX File)](math3190/Reference Sheets/R Reference Sheet/R Reference Sheet.tex)
+* [Unix and GitHub Reference Sheet](math3190/Reference Sheets/Unix and Git Reference Sheet/Unix and Git Reference Sheet.pdf)
+  - [Source Code (TeX File)](math3190/Reference Sheets/Unix and Git Reference Sheet/Unix and Git Reference Sheet.tex)
+
+## Homework 
+
+* Homework 0
+  - [Word Document](math3190/Homework/Homework 0/Homework 0.docx)
+  - [PDF File](math3190/Homework/Homework 0/Homework 0.pdf)
+* Homework 1
+  - [HTML File](math3190/Homework/Homework 1/Homework 1.html)
+  - [PDF File](math3190/Homework/Homework 1/Homework-1.pdf)
+  - [Quarto File](math3190/Homework/Homework 1/Homework 1.qmd)
+* Homework 2
+  - [HTML File](math3190/Homework/Homework 2/Homework 2.html)
+  - [PDF File](math3190/Homework/Homework 2/Homework-2.pdf)
+  - [Quarto File](math3190/Homework/Homework 2/Homework 2.qmd)
+* Homework 3
+  - [HTML File](math3190/Homework/Homework 3/Homework 3.html)
+  - [PDF File](math3190/Homework/Homework 3/Homework-3.pdf)
+  - [Quarto File](math3190/Homework/Homework 3/Homework 3.qmd)
+* Homework 4
+  - [HTML File](math3190/Homework/Homework 4/Homework 4.html)
+  - [PDF File](math3190/Homework/Homework 4/Homework-4.pdf)
+  - [Quarto File](math3190/Homework/Homework 4/Homework 4.qmd)
+* Homework 5
+  - [HTML File](math3190/Homework/Homework 5/Homework 5.html)
+  - [PDF File](math3190/Homework/Homework 5/Homework-5.pdf)
+  - [Quarto File](math3190/Homework/Homework 5/Homework 5.qmd)
+* Homework 6
+  - [HTML File](math3190/Homework/Homework 6/Homework 6.html)
+  - [PDF File](math3190/Homework/Homework 6/Homework-6.pdf)
+  - [Quarto File](math3190/Homework/Homework 6/Homework 6.qmd)
+* Homework 7
+  - [HTML File](math3190/Homework/Homework 7/Homework 7.html)
+  - [PDF File](math3190/Homework/Homework 7/Homework-7.pdf)
+  - [Quarto File](math3190/Homework/Homework 7/Homework 7.qmd)
+* Homework 8
+  - [HTML File](math3190/Homework/Homework 8/Homework 8.html)
+  - [PDF File](math3190/Homework/Homework 8/Homework-8.pdf)
+  - [Quarto File](math3190/Homework/Homework 8/Homework 8.qmd)
+* Homework 9
+  - [HTML File](math3190/Homework/Homework 9/Homework 9.html)
+  - [PDF File](math3190/Homework/Homework 9/Homework-9.pdf)
+  - [Quarto File](math3190/Homework/Homework 9/Homework 9.qmd)
+* Homework 10
+  - [HTML File](math3190/Homework/Homework 10/Homework 10.html)
+  - [PDF File](math3190/Homework/Homework 10/Homework-10.pdf)
+  - [Quarto File](math3190/Homework/Homework 10/Homework 10.qmd)
+
+## Labs
+
+* Lab 1 - Unix, Git, and GitHub
+  - [Word Document](math3190/Labs/Lab 1 - Unix, Git, GitHub/Lab 1 - Unix, Git, and GitHub.docx)
+  - [PDF File](math3190/Labs/Lab 1 - Unix, Git, GitHub/Lab 1 - Unix, Git, and GitHub.pdf)
+* Lab 2 - R 
+  - [Word Document](math3190/Labs/Lab 2 - R/Lab 2 - R.docx)
+  - [PDF File](math3190/Labs/Lab 2 - R/Lab 2 - R.pdf)
+* Lab 3 - Quarto Website
+  - [Word Document](math3190/Labs/Lab 3 - Quarto Website/Lab 3 - Quarto Website.docx)
+  - [PDF File](math3190/Labs/Lab 3 - Quarto Website/Lab 3 - Quarto Website.pdf)
+
+## Data Files
+The data files can all be downloaded from here:
+[Data Files Download (ZIP File)](math3190/Data/math3190_all_data.zip).
+
+## R Package
+The GitHub repo for the **R** package associated with this course can be found here: [https://github.com/rbrown53/math3190package](https://github.com/rbrown53/math3190package).

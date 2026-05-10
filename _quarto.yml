@@ -11,7 +11,11 @@ website:
         text: About
       - href: teaching.qmd
         text: Teaching
-      - text: Course Notes
+      - text: Course Pages
+        menu:
+          - href: math3190s26.qmd
+            text: MATH 3190 Spring 2026
+      - text: Course Notes PDFs
         menu: 
           - href: Course Notes/Math 1040 Notes - All Chapters.pdf
             text: MATH 1040
