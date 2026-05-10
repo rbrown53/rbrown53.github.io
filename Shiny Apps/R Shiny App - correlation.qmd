@@ -20,7 +20,7 @@ filters:
 
 ```{shinylive-r}
 #| standalone: true
-#| viewerHeight: 600
+#| viewerHeight: 1100
 library(shiny)
 library(tidyverse)
 library(plotly)
