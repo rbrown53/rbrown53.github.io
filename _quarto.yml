@@ -35,6 +35,10 @@ website:
             text: K-Means
           - href: Shiny Apps/R Shiny App - correlation.qmd
             text: Correlation Game
+      - text: Miscellaneous
+        menu: 
+          - href: LaTeX Accessible Guide.pdf
+            text: LaTeX Accessibility Guide
 
 
 format:
