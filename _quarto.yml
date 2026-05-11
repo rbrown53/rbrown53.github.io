@@ -40,7 +40,6 @@ website:
           - href: LaTeX Accessible Guide.pdf
             text: LaTeX Accessibility Guide
 
-
 format:
   html:
     theme: cosmo dark

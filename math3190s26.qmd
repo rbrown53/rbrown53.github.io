@@ -116,9 +116,11 @@ This is the course page for MATH 3190 most recently taught in Spring 2026.
   - [Word Document](math3190/Labs/Lab 3 - Quarto Website/Lab 3 - Quarto Website.docx)
   - [PDF File](math3190/Labs/Lab 3 - Quarto Website/Lab 3 - Quarto Website.pdf)
 
+
 ## Data Files
 The data files can all be downloaded from here:
 [Data Files Download (ZIP File)](math3190/Data/math3190_all_data.zip).
+
 
 ## R Package
 The GitHub repo for the **R** package associated with this course can be found here: [https://github.com/rbrown53/math3190package](https://github.com/rbrown53/math3190package).
