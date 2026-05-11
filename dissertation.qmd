@@ -1,0 +1,5 @@
+---
+page-layout: full
+---
+
+![](Papers/Dissertation.pdf){width="100%" height="800"}

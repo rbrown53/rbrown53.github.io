@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>K-Means Shiny App – Rick Brown</title>
+<title>dissertation – Rick Brown</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -26,28 +26,23 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../">
-<script src="../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../site_libs/quarto-html/popper.min.js"></script>
-<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-45431c2918bd31147ddb3fa7038bb99f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
-<meta name="shinylive:serviceworker_dir" content="..">
-<script src="../site_libs/quarto-contrib/shinylive-0.10.8/shinylive/load-shinylive-sw.js" type="module"></script>
-<script src="../site_libs/quarto-contrib/shinylive-0.10.8/shinylive/run-python-blocks.js" type="module"></script>
-<link href="../site_libs/quarto-contrib/shinylive-0.10.8/shinylive/shinylive.css" rel="stylesheet">
-<link href="../site_libs/quarto-contrib/shinylive-quarto-css/shinylive-quarto.css" rel="stylesheet">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-45431c2918bd31147ddb3fa7038bb99f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -77,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 }</script>
 
 
-<link rel="stylesheet" href="../styles.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 
 <body class="nav-fixed quarto-light">
@@ -87,7 +82,7 @@ ul.task-list li input[type="checkbox"] {
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="../index.html">
+    <a class="navbar-brand" href="./index.html">
     <span class="navbar-title">Rick Brown</span>
     </a>
   </div>
@@ -98,11 +93,11 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../index.html"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">About</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../teaching.html"> 
+    <a class="nav-link" href="./teaching.html"> 
 <span class="menu-text">Teaching</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -111,7 +106,7 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-course-pages">    
         <li>
-    <a class="dropdown-item" href="../math3190s26.html">
+    <a class="dropdown-item" href="./math3190s26.html">
  <span class="dropdown-text">MATH 3190 Spring 2026</span></a>
   </li>  
     </ul>
@@ -122,29 +117,29 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-course-notes-pdfs">    
         <li>
-    <a class="dropdown-item" href="../Course Notes/Math 1040 Notes - All Chapters.pdf">
+    <a class="dropdown-item" href="./Course Notes/Math 1040 Notes - All Chapters.pdf">
  <span class="dropdown-text">MATH 1040</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../Course Notes/Math 3150 Notes - All Chapters.pdf">
+    <a class="dropdown-item" href="./Course Notes/Math 3150 Notes - All Chapters.pdf">
  <span class="dropdown-text">MATH 3150</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../math3190/Notes/All Notes/Math 3190 Notes - All.pdf">
+    <a class="dropdown-item" href="./math3190/Notes/All Notes/Math 3190 Notes - All.pdf">
  <span class="dropdown-text">MATH 3190</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../Course Notes/Math 3700 Notes - All Chapters.pdf">
+    <a class="dropdown-item" href="./Course Notes/Math 3700 Notes - All Chapters.pdf">
  <span class="dropdown-text">MATH 3700</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../Course Notes/R-Guide.pdf">
+    <a class="dropdown-item" href="./Course Notes/R-Guide.pdf">
  <span class="dropdown-text">R Guide</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../workshops.html"> 
+    <a class="nav-link" href="./workshops.html"> 
 <span class="menu-text">Conference Workshops</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -153,11 +148,11 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-fun-with-r-shiny">    
         <li>
-    <a class="dropdown-item" href="../Shiny Apps/R Shiny App - kmeans.html">
+    <a class="dropdown-item" href="./Shiny Apps/R Shiny App - kmeans.html">
  <span class="dropdown-text">K-Means</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../Shiny Apps/R Shiny App - correlation.html">
+    <a class="dropdown-item" href="./Shiny Apps/R Shiny App - correlation.html">
  <span class="dropdown-text">Correlation Game</span></a>
   </li>  
     </ul>
@@ -168,7 +163,7 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-miscellaneous">    
         <li>
-    <a class="dropdown-item" href="../LaTeX Accessible Guide.pdf">
+    <a class="dropdown-item" href="./LaTeX Accessible Guide.pdf">
  <span class="dropdown-text">LaTeX Accessibility Guide</span></a>
   </li>  
     </ul>
@@ -181,97 +176,19 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
     </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">K-Means Shiny App</h1>
-</div>
+<main class="content column-page" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
-  </div>
-  
-
-
-</header>
-
-
-<!-- Had to run the following in the terminal first: -->
-<!-- mkdir -p ~/python-envs -->
-<!-- python3 -m venv ~/python-envs/quarto -->
-<!-- source ~/python-envs/quarto/bin/activate -->
-<!-- pip install jupyter ipykernel pyyaml shinylive -->
-<!-- python -m ipykernel install --user --name quarto-python --display-name "Quarto Python" -->
-<!-- Put the following in ~/.zshrc -->
-<!-- export QUARTO_PYTHON=~/python-envs/quarto/bin/python -->
-<!-- Then ran in terminal: -->
-<!-- source ~/.zshrc -->
-<!-- launchctl setenv QUARTO_PYTHON "$HOME/python-envs/quarto/bin/python" -->
-<p>It may take a moment for the app to load.</p>
-<pre class="shinylive-r" data-engine="r"><code>#| '!! shinylive warning !!': |
-#|   shinylive does not work in self-contained HTML documents.
-#|   Please set `embed-resources: false` in your metadata.
-#| standalone: true
-#| viewerHeight: 600
-library(shiny)
-ui &lt;- fluidPage(
-  
-  # Put a titlePanel here
-  titlePanel("k-means clustering"),
-  
-  sidebarLayout(
-    # Sidebar. Put your inputs inside the sidebarPanel
-    sidebarPanel(
-      selectInput('xcol', 'X Variable', names(iris)),
-      selectInput('ycol', 'Y Variable', names(iris),
-                  selected=names(iris)[[2]]),
-      numericInput('clusters', 'Cluster count', 3,
-                   min = 1, max = 9)
-    ),
-    
-    # Main panel. put your output plot here
-    mainPanel(
-      plotOutput('plot1')
-    )
-  )
-)
-
-server &lt;- function(input, output, session) {
-  
-  selectedData &lt;- reactive({
-    iris[, c(input$xcol, input$ycol)]
-  })
-  
-  clusters &lt;- reactive({
-    kmeans(selectedData(), input$clusters)
-  })
-  
-  output$plot1 &lt;- renderPlot({
-    palette(c("#E41A1C", "#377EB8", "#4DAF4A", "#984EA3",
-              "#FF7F00", "#FFFF33", "#A65628", "#F781BF", "#999999"))
-    
-    par(mar = c(5.1, 4.1, 0, 1))
-    plot(selectedData(),
-         col = clusters()$cluster,
-         pch = 20, cex = 3)
-    points(clusters()$centers, pch = 4, cex = 4, lwd = 4)
-  })
-}
-
-shinyApp(ui = ui, server = server)</code></pre>
+<p><embed src="Papers/Dissertation.pdf" style="width:100.0%" height="800"></p>
 
 
 

@@ -18,6 +18,8 @@ filters:
 <!-- source ~/.zshrc -->
 <!-- launchctl setenv QUARTO_PYTHON "$HOME/python-envs/quarto/bin/python" -->
 
+It may take a moment for the app to load. 
+
 ```{shinylive-r}
 #| standalone: true
 #| viewerHeight: 1100

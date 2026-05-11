@@ -15,6 +15,18 @@ about:
       href: mailto:richardbrown1@suu.edu  
 ---
 
-I am currently an Assistant Professor Mathematics and the director of the data science program at [Southern Utah University](https://www.suu.edu/math/) where I teach primarily statistics and data science courses.
+## Bio
+I am currently an Assistant Professor Mathematics and the director of the data science program at [Southern Utah University](https://www.suu.edu/math/) where I teach primarily statistics and data science courses. 
 
-I received a Bachelor's of Science in Mathematics with an option in Statistics from [California State University, Chico](https://www.csuchico.edu/academics/college/natural-sciences/departments/mathematics-statistics/), a Master's of Science in Statistics from [Colorado State University](https://statistics.colostate.edu) and a PhD in Applied Mathematics from the [University of Montana](https://www.umt.edu/math/). I worked as a Mathematical Statistician for the [United States Census Bureau ](https://www.census.gov) between obtaining my master's and going back to graduate school for my PhD.
+I joined the faculty at SUU in Fall 2020 as a Lecturer of Mathematics before obtaining a tenure-track position in Fall 2023. Since being at SUU, I have assisted in developing the data science bachelor's degree and getting it accreditedby [ABET](https://www.abet.org/accreditation/accreditation-criteria/criteria-for-accrediting-computing-programs-2025-2026/). I have taught and developed [many different courses](teaching.qmd) in my time at SUU.
+
+I received a Bachelor's of Science in Mathematics with an option in Statistics from [California State University, Chico](https://www.csuchico.edu/academics/college/natural-sciences/departments/mathematics-statistics/). I then obtained a Master's of Science in Statistics from [Colorado State University](https://statistics.colostate.edu) where I completed a project entitled [_A Study of Collaborative Funding from the National Institutes of Health From Social Network Perspectives_](thesis.qmd) with advisor [Dr. Haonan Wang](https://www.stat.colostate.edu/~wanghn/index.html) and co-advisor [Stephen C. Hayne](https://biz.colostate.edu/about/directory/hayne). After this, I worked as a Mathematical Statistician for the [United States Census Bureau ](https://www.census.gov) for a year before going back to graduate school. I earned a PhD in Applied Mathematics from the [University of Montana](https://www.umt.edu/math/) with dissertation [_Semivariogram Methods for Modeling Whittle-Matérn Priors in Bayesian Inverse Problems_](dissertation.qmd) with advisor [Dr. John Bardsley](https://www.umt.edu/math/people/default.php?ID=651#ID=651). 
+
+## Education
+* 2020 - Ph.D. Applied Mathematics. University of Montana
+* 2015 - M.S. Statistics. Colorado State University
+* 2013 - B.S. Mathematics with option in Statistics. California State University, Chico
+
+## Research Interests
+I am interested in parametric and non-parametric statistical modeling, Bayesian methods, and data analysis generally. I enjoy mentoring and advising undergraduate students as they work on data science projects. 
+
