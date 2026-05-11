@@ -1,0 +1,194 @@
+\documentclass[11pt]{article}
+\usepackage{geometry}                % See geometry.pdf to learn the layout options. There are lots.
+\geometry{letterpaper}                   % ... or a4paper or a5paper or ... 
+%\geometry{landscape}                % Activate for for rotated page geometry
+\usepackage[parfill]{parskip}    % Activate to begin paragraphs with an empty line rather than an indent
+\usepackage{graphicx}
+\usepackage{amssymb}
+\usepackage[normalem]{ulem}
+\usepackage{epstopdf}
+\usepackage{tcolorbox}
+\usepackage{bm}
+\usepackage{float}
+\restylefloat{figure}
+\usepackage{titlesec}
+\usepackage{verbatimbox}
+\usepackage{multicol}
+\usepackage{soul}
+\usepackage{tikz}
+\usepackage{tikzsymbols}
+\usepackage{amsmath}
+\usetikzlibrary{arrows}
+\usepackage{caption}
+\DeclareGraphicsRule{.tif}{png}{.png}{`convert #1 `dirname #1`/`basename #1 .tif`.png}
+\pagestyle{plain}
+\renewcommand{\thepage}{Unix/Git -- \arabic{page}} 
+\setcounter{page}{1} 
+
+\setlength{\textwidth}{6.9in}
+\setlength{\oddsidemargin}{-.35in}
+\setlength{\evensidemargin}{-.35in}
+\setlength{\textheight}{9.2in}
+%\setlength{\topmargin}{-0.5in}
+\setlength{\topmargin}{-.9in}
+%\setlength{\oddsidemargin}{-.25in}
+%\setlength{\evensidemargin}{-.25in}
+%\pagestyle{headandfoot}
+%\firstpageheader{Stat 341}{Survey of Statistical Methods}{}
+
+\newcommand{\ub}[1]{\ul{\bf #1}}
+
+\newcommand{\vsp}{\vspace{1in}}
+
+
+%\title{Brief Article}
+%\author{The Author}
+%\date{}                                           % Activate to display a given date or no date
+
+\begin{document}
+\large
+\begin{tcolorbox}[width=\linewidth, sharp corners=all, colback=white!100!black]
+
+%%% TOPIC 1
+
+\begin{center} {\LARGE{\bf Unix and GitHub Commands Reference Sheet}} \end{center}
+
+\end{tcolorbox}
+
+%\begin{tcolorbox}[width=\linewidth, sharp corners=all, colback=white!95!black, title = {\bf Topic 1}, colbacktitle = white!80!black, coltitle = black]
+%\centerline{{\Large\bf Data and Variables}}
+%\end{tcolorbox}
+
+Tips:\vspace{-.1in}
+\begin{enumerate}
+	\item The up arrow retrieves your previous command.
+	\item You can auto-complete by hitting tab.
+	\item If a file or folder has a space in its name, use quotes when referring to it.
+	\item We always need to specify the path to a file unless it is in the working directory. We can also specify the path from the working directory to the file.
+	\item Typing \texttt{q} or \texttt{control-c} will escape most Unix commands.
+\end{enumerate}
+
+\vspace{.1in}
+\begin{tcolorbox}[width=1.03in, sharp corners=all, colback=white!95!black] %title = {\bf Day 1}, colbacktitle = white!80!black, coltitle = black]
+{\bf Unix}
+\end{tcolorbox}
+
+%\begin{tabular}{ll}
+%\texttt{\$ cd folder\_name} & Changes the current directory to the specified one.\\
+%\texttt{\$ cd ..} & Changes the current directory to the one containing the current one.\\
+%&  Goes back one folder.\\
+%\texttt{\$ cd ../..} &  Goes back two folders.\\
+%\texttt{\$ ls} &  Lists all files and folders in the current directory that are not hidden. \\
+%\texttt{\$ ls -a} &  Lists all hidden and unhidden files and folders in the current directory. \\
+%\texttt{\$ mkdir folder\_name} & Creates a new folder in the current directory.\\
+%\texttt{\$ rmdir folder\_name} & Deletes a folder in the current directory. Only works when the folder is empty. \\
+%\end{tabular}
+
+
+\begin{description}
+	\item[\texttt{\$ pwd}] $\quad$ Shows the path to the present working directory. 
+	
+	\item[\texttt{\$ cd folder\_name}] $\quad$ Changes the current directory to the specified one.
+	
+	\item[\texttt{\$ cd ..}] $\quad$ Changes the current directory to the one containing the current one. Goes back one folder.
+	
+	\item[\texttt{\$ cd ../..}] $\quad$ Goes back two folders.
+	
+	\item[\texttt{\$ ls}] $\quad$ Lists all files and folders in the current directory that are not hidden. 
+	
+	\item[\texttt{\$ ls -a}] $\quad$ Lists all hidden and unhidden files and folders in the current directory. 
+	
+	\item[\texttt{\$ ls -l}] $\quad$ Lists with long format that shows permissions.
+	
+	\item[\texttt{\$ mkdir folder\_name}] $\quad$ Creates a new folder in the current directory. 
+	
+	\item[\texttt{\$ rmdir folder\_name}] $\quad$ Deletes a folder in the current directory. Only works when the folder is empty. 
+	
+	\item[\texttt{\$ touch file\_name}] $\quad$ Creates a new blank file in the current directory or updates the modified date if the file already exists.
+	
+	\item[\texttt{\$ mv path-to-file path-to-destination-directory}] $\quad$ Moves a file to another folder. 
+	
+	\item[\texttt{\$ cp path-to-directory/file\_name path-to-destination-directory/new\_file\_name}] $\quad$ Copies a file to another directory. 
+	
+	\item[\texttt{\$ cp -r path-to-directory path-to-destination-directory}] $\quad$ Copies a folder to another directory. 
+	
+	\item[\texttt{\$ rm file\_name}] $\quad$ Permanently deletes a file.
+	
+	\item[\texttt{\$ rm -r folder\_name}] $\quad$ Permanently deletes a folder.
+	
+	\item[\texttt{\$ man ls}] $\quad$ Brings up the manual for the listed command. In this case, \texttt{ls}. Not available for all systems.
+	
+	\item[\texttt{\$ ls --help}] $\quad$ Brings up the help guide for the listed command. In this case, \texttt{ls}. Not available for all systems.
+\end{description}
+
+\newpage
+
+\vspace{.1in}
+\begin{tcolorbox}[width=1.03in, sharp corners=all, colback=white!95!black] %title = {\bf Day 1}, colbacktitle = white!80!black, coltitle = black]
+	{\bf Git}
+\end{tcolorbox}
+
+\begin{description}
+	\item[\texttt{\$ git config --global user.name "My Name"}] $\quad$ Configures your user name.
+	\item[\texttt{\$ git config --global user.mail "my@email.com"}] $\quad$ Configures your email.
+	\item[\texttt{\$ git config --global init.defaultBranch main}] $\quad$ Changes the name of the default branch.
+	\item[\texttt{\$ git status}] $\quad$ Checks the status of new or modified files.
+	\item[\texttt{\$ git add file\_name}] $\quad$ Adds a file to the staging area.
+	\item[\texttt{\$ git add .}] $\quad$ Adds all new or modified files to the staging area.
+	\item[\texttt{\$ git add *}] $\quad$ Adds all new or modified files to the staging area that do not have names that begin with a period (.).
+	\item[\texttt{\$ git commit -m "message"}] $\quad$ Commits all files in the staging area with a message.
+	\item[\texttt{\$ git commit file\_name -am "message"}] $\quad$ Adds and commits the file to the staging area with a message.
+	\item[\texttt{\$ git commit . -am "message"}] $\quad$ Adds and commits all modified files to the staging area with a message.
+	\item[\texttt{\$ git checkout branch\_name}] $\quad$ Switches branches.
+	\item[\texttt{\$ git checkout -b new\_branch\_name}] $\quad$ Creates a new branch.
+	\item[\texttt{\$ git branch new\_branch\_name}] $\quad$ Creates a new branch.
+	\item[\texttt{\$ git branch}] $\quad$ Shows the branches.
+	\item[\texttt{\$ git merge branch\_name}] $\quad$ Merges current branch with the specified branch.
+	\item[\texttt{\$ git init}] $\quad$ Sets up git (specifically, a hidden \texttt{.git} folder) in the current directory. 
+	\item[\texttt{\$ git log}] $\quad$ See a log of recent commits.
+	\item[\texttt{\$ git log --all}] $\quad$ See a log of all commits.
+	\item[\texttt{\$ git log --all --graph}] $\quad$ See a log of all commits with a basic graph.
+	\item[\texttt{\$ git reset HEAD$\sim$1}] $\quad$ Undoes the last commit.
+	\item[\texttt{\$ git checkout commit\_hash}] $\quad$ View code in a prior commit.
+	\item[\texttt{\$ git switch -c new\_branch\_name}] $\quad$ Creates a new branch from a temporary one when checking out a prior commit. 
+	\item[\texttt{\$ git checkout commit\_hash file\_name}] $\quad$ Restore file to the version in specified commit.
+	\item[\texttt{\$ git reset commit\_hash}] $\quad$ Unstages to a certain commit hash from the log. The changes will still appear in your file(s).
+	\item[\texttt{\$ git reset --hard commit\_hash}] $\quad$ Resets to a certain commit hash from the log. The changes will be removed from your file(s).
+	\item[\texttt{\$ git config --global alias.alias\_name "full\_git\_command"}] $\quad$ Creates an alias or shortcut called alias\_name for a full git command.
+\end{description}
+
+\newpage
+
+\vspace{.1in}
+\begin{tcolorbox}[width=1.03in, sharp corners=all, colback=white!95!black] %title = {\bf Day 1}, colbacktitle = white!80!black, coltitle = black]
+	{\bf GitHub}
+\end{tcolorbox}
+
+\begin{description}
+	\item[\texttt{\$ git clone https://github.com/username/reponame.git}] $\quad$ Clones the specified repo from the specified user to a folder in the current directory. 
+	\item[\texttt{\$ git remote add origin https://github.com/username/reponame.git}] $\quad$
+	\item[\texttt{\$ git push}] $\quad$ Pushes commits to GitHub.
+	\item[\texttt{\$ git pull}] $\quad$ Pulls all new or modified files to your local system and overwrites prior ones.
+	\item[\texttt{\$ git fetch}] $\quad$ Pulls all new or modified files to your local git directory, but does not overwrite files in your working directory.
+	\item[\texttt{\$ git merge}] $\quad$ Moves files from the git directory to your working directory.
+	
+\end{description}
+
+%\begin{description}
+%	\item[\texttt{\$ cd folder\_name}] $\quad$ Changes the current directory to the specified one.
+%	
+%	\item[\texttt{\$ cd ..}] $\quad$ Changes the current directory to the one containing the current one. Goes back one folder.
+%	
+%	\item[\texttt{\$ cd ../..}] $\quad$ Goes back two folders.
+%	
+%	\item[\texttt{\$ ls}] $\quad$ Lists all files and folders in the current directory that are not hidden. 
+%	
+%	\item[\texttt{\$ ls -a}] $\quad$ Lists all hidden and unhidden files and folders in the current directory. 
+%	
+%	\item[\texttt{\$ mkdir folder\_name}] $\quad$ Creates a new folder in the current directory. 
+%	
+%	\item[\texttt{\$ rmdir folder\_name}] $\quad$ Deletes a folder in the current directory. Only works when the folder is empty. 
+%\end{description}
+
+
+\end{document}   

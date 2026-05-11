@@ -1,0 +1,142 @@
+[
+  {
+    "objectID": "math3190s26.html",
+    "href": "math3190s26.html",
+    "title": "MATH 3190 – Fundamentals of Data Science Spring 2026",
+    "section": "",
+    "text": "This is the course page for MATH 3190 most recently taught in Spring 2026."
+  },
+  {
+    "objectID": "math3190s26.html#syllabus-and-schedule",
+    "href": "math3190s26.html#syllabus-and-schedule",
+    "title": "MATH 3190 – Fundamentals of Data Science Spring 2026",
+    "section": "Syllabus and Schedule",
+    "text": "Syllabus and Schedule\n\nCourse Syllabus\nCourse Schedule"
+  },
+  {
+    "objectID": "math3190s26.html#course-notes",
+    "href": "math3190s26.html#course-notes",
+    "title": "MATH 3190 – Fundamentals of Data Science Spring 2026",
+    "section": "Course Notes",
+    "text": "Course Notes\n\nAll notes\nNotes 1 - Intro and GitHub\n\nNotes 1 Slides\nSource Code (Quarto File)\n\nNotes 2 - R Guide\n\nNotes 2 Slides\nSource Code (Quarto File)\n\nNotes 3 - Quarto\n\nNotes 3 Slides\nSource Code (Quarto File)\n\nNotes 4 - Databases and SQL\n\nNotes 4 Slides\nSource Code (Quarto File)\n\nNotes 5 - Verification and Resampling Methods\n\nSource Code (Quarto File)\n\nNotes 6 - Optimization\n\nSource Code (Quarto File)\n\nNotes 7 - Advanced Regression\n\nSource Code (Quarto File)\n\nNotes 8 - Dimension Reduction\n\nSource Code (Quarto File)\n\nNotes 9 - Bayesian Methods\n\nSource Code (Quarto File)\n\nNotes 10 - More Classification\n\nSource Code (Quarto File)\n\nNotes 11 - Time Series\n\nSource Code (Quarto File)\n\nR Reference Sheet\n\nSource Code (TeX File)\n\nUnix and GitHub Reference Sheet\n\nSource Code (TeX File)"
+  },
+  {
+    "objectID": "math3190s26.html#homework",
+    "href": "math3190s26.html#homework",
+    "title": "MATH 3190 – Fundamentals of Data Science Spring 2026",
+    "section": "Homework",
+    "text": "Homework\n\n\n\n\nHomework 0\n\nWord Document\nPDF File\n\nHomework 1\n\nHTML File\nPDF File\nQuarto File\n\nHomework 2\n\nHTML File\nPDF File\nQuarto File\n\nHomework 3\n\nHTML File\nPDF File\nQuarto File\n\nHomework 4\n\nHTML File\nPDF File\nQuarto File\n\nHomework 5\n\nHTML File\nPDF File\nQuarto File\n\n\n\n\n\nHomework 6\n\nHTML File\nPDF File\nQuarto File\n\nHomework 7\n\nHTML File\nPDF File\nQuarto File\n\nHomework 8\n\nHTML File\nPDF File\nQuarto File\n\nHomework 9\n\nHTML File\nPDF File\nQuarto File\n\nHomework 10\n\nHTML File\nPDF File\nQuarto File"
+  },
+  {
+    "objectID": "math3190s26.html#labs",
+    "href": "math3190s26.html#labs",
+    "title": "MATH 3190 – Fundamentals of Data Science Spring 2026",
+    "section": "Labs",
+    "text": "Labs\n\nLab 1 - Unix, Git, and GitHub\n\nWord Document\nPDF File\n\nLab 2 - R\n\nWord Document\nPDF File\n\nLab 3 - Quarto Website\n\nWord Document\nPDF File"
+  },
+  {
+    "objectID": "math3190s26.html#data-files",
+    "href": "math3190s26.html#data-files",
+    "title": "MATH 3190 – Fundamentals of Data Science Spring 2026",
+    "section": "Data Files",
+    "text": "Data Files\nThe data files can all be downloaded from here: Data Files Download (ZIP File)."
+  },
+  {
+    "objectID": "math3190s26.html#r-package",
+    "href": "math3190s26.html#r-package",
+    "title": "MATH 3190 – Fundamentals of Data Science Spring 2026",
+    "section": "R Package",
+    "text": "R Package\nThe GitHub repo for the R package associated with this course can be found here: https://github.com/rbrown53/math3190package."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Rick Brown",
+    "section": "",
+    "text": "I am currently an Assistant Professor Mathematics and the director of the data science program at Southern Utah University where I teach primarily statistics and data science courses.\nI joined the faculty at SUU in Fall 2020 as a Lecturer of Mathematics before obtaining a tenure-track position in Fall 2023. Since being at SUU, I have assisted in developing the data science bachelor’s degree and getting it accreditedby ABET. I have taught and developed many different courses in my time at SUU.\nI received a Bachelor’s of Science in Mathematics with an option in Statistics from California State University, Chico. I then obtained a Master’s of Science in Statistics from Colorado State University where I completed a project entitled A Study of Collaborative Funding from the National Institutes of Health From Social Network Perspectives with advisor Dr. Haonan Wang and co-advisor Stephen C. Hayne. After this, I worked as a Mathematical Statistician for the United States Census Bureau for a year before going back to graduate school. I earned a PhD in Applied Mathematics from the University of Montana with dissertation Semivariogram Methods for Modeling Whittle-Matérn Priors in Bayesian Inverse Problems with advisor Dr. John Bardsley."
+  },
+  {
+    "objectID": "index.html#bio",
+    "href": "index.html#bio",
+    "title": "Rick Brown",
+    "section": "",
+    "text": "I am currently an Assistant Professor Mathematics and the director of the data science program at Southern Utah University where I teach primarily statistics and data science courses.\nI joined the faculty at SUU in Fall 2020 as a Lecturer of Mathematics before obtaining a tenure-track position in Fall 2023. Since being at SUU, I have assisted in developing the data science bachelor’s degree and getting it accreditedby ABET. I have taught and developed many different courses in my time at SUU.\nI received a Bachelor’s of Science in Mathematics with an option in Statistics from California State University, Chico. I then obtained a Master’s of Science in Statistics from Colorado State University where I completed a project entitled A Study of Collaborative Funding from the National Institutes of Health From Social Network Perspectives with advisor Dr. Haonan Wang and co-advisor Stephen C. Hayne. After this, I worked as a Mathematical Statistician for the United States Census Bureau for a year before going back to graduate school. I earned a PhD in Applied Mathematics from the University of Montana with dissertation Semivariogram Methods for Modeling Whittle-Matérn Priors in Bayesian Inverse Problems with advisor Dr. John Bardsley."
+  },
+  {
+    "objectID": "index.html#education",
+    "href": "index.html#education",
+    "title": "Rick Brown",
+    "section": "Education",
+    "text": "Education\n\n2020 - Ph.D. Applied Mathematics. University of Montana\n2015 - M.S. Statistics. Colorado State University\n2013 - B.S. Mathematics with option in Statistics. California State University, Chico"
+  },
+  {
+    "objectID": "index.html#research-interests",
+    "href": "index.html#research-interests",
+    "title": "Rick Brown",
+    "section": "Research Interests",
+    "text": "Research Interests\nI am interested in parametric and non-parametric statistical modeling, Bayesian methods, and data analysis generally. I enjoy mentoring and advising undergraduate students as they work on data science projects."
+  },
+  {
+    "objectID": "Shiny Apps/R Shiny App - kmeans.html",
+    "href": "Shiny Apps/R Shiny App - kmeans.html",
+    "title": "K-Means Shiny App",
+    "section": "",
+    "text": "It may take a moment for the app to load.\n#| '!! shinylive warning !!': |\n#|   shinylive does not work in self-contained HTML documents.\n#|   Please set `embed-resources: false` in your metadata.\n#| standalone: true\n#| viewerHeight: 600\nlibrary(shiny)\nui &lt;- fluidPage(\n  \n  # Put a titlePanel here\n  titlePanel(\"k-means clustering\"),\n  \n  sidebarLayout(\n    # Sidebar. Put your inputs inside the sidebarPanel\n    sidebarPanel(\n      selectInput('xcol', 'X Variable', names(iris)),\n      selectInput('ycol', 'Y Variable', names(iris),\n                  selected=names(iris)[[2]]),\n      numericInput('clusters', 'Cluster count', 3,\n                   min = 1, max = 9)\n    ),\n    \n    # Main panel. put your output plot here\n    mainPanel(\n      plotOutput('plot1')\n    )\n  )\n)\n\nserver &lt;- function(input, output, session) {\n  \n  selectedData &lt;- reactive({\n    iris[, c(input$xcol, input$ycol)]\n  })\n  \n  clusters &lt;- reactive({\n    kmeans(selectedData(), input$clusters)\n  })\n  \n  output$plot1 &lt;- renderPlot({\n    palette(c(\"#E41A1C\", \"#377EB8\", \"#4DAF4A\", \"#984EA3\",\n              \"#FF7F00\", \"#FFFF33\", \"#A65628\", \"#F781BF\", \"#999999\"))\n    \n    par(mar = c(5.1, 4.1, 0, 1))\n    plot(selectedData(),\n         col = clusters()$cluster,\n         pch = 20, cex = 3)\n    points(clusters()$centers, pch = 4, cex = 4, lwd = 4)\n  })\n}\n\nshinyApp(ui = ui, server = server)"
+  },
+  {
+    "objectID": "teaching.html",
+    "href": "teaching.html",
+    "title": "Teaching",
+    "section": "",
+    "text": "Listed below are all the courses I have taught at various institutions."
+  },
+  {
+    "objectID": "teaching.html#footnotes",
+    "href": "teaching.html#footnotes",
+    "title": "Teaching",
+    "section": "Footnotes",
+    "text": "Footnotes\n\n\nThis class was originally MATH 2140 – Applied Statistics and then MATH 3150 – Applied Statistics before becoming MATH 3150 – Applied Linear Models.↩︎\nThis class was originally MATH 3190 – Fundamentals of Data Science before becoming MATH 3190 – Statistical Learning for Data Science.↩︎"
+  },
+  {
+    "objectID": "Shiny Apps/R Shiny App - correlation.html",
+    "href": "Shiny Apps/R Shiny App - correlation.html",
+    "title": "Guess the Correlation Shiny App",
+    "section": "",
+    "text": "It may take a moment for the app to load.\n#| '!! shinylive warning !!': |\n#|   shinylive does not work in self-contained HTML documents.\n#|   Please set `embed-resources: false` in your metadata.\n#| standalone: true\n#| viewerHeight: 1100\nlibrary(shiny)\nlibrary(tidyverse)\nlibrary(plotly)\nlibrary(shinyjs)\n\nui &lt;- fluidPage(\n  useShinyjs(),\n\n  textInput(\"cor_guess\", \"Guess the correlation!\"),\n\n  actionButton(\"submit_guess\", \"Submit Guess\"),\n  actionButton(\"new_plot\", \"Generate New Plot\"),\n  actionButton(\"toggle_stats\", \"Hide Guess History\"),\n\n  br(), br(),\n\n  plotOutput(\"graph\"),\n\n  textOutput(\"message\"),\n\n  plotlyOutput(\"stats\"),\n\n  br(),\n\n  div(\n    id = \"reset_container\",\n    actionButton(\"reset_input\", \"Reset Game\")\n  )\n)\n\nserver &lt;- function(input, output, session) {\n\n  vars &lt;- reactiveValues(\n    off_values = c(),\n    show_stats = TRUE,\n    true_cor = NULL\n  )\n\n  x_vals &lt;- reactiveVal()\n  y_vals &lt;- reactiveVal()\n\n  generate_data &lt;- function() {\n\n    x &lt;- rnorm(100)\n\n    target_cor &lt;- runif(1, -0.95, 0.95)\n\n    z &lt;- rnorm(100)\n    z &lt;- scale(z - cor(z, x) * x)\n\n    y &lt;- target_cor * scale(x) + sqrt(1 - target_cor^2) * z\n\n    x_vals(as.numeric(x))\n    y_vals(as.numeric(y))\n    vars$true_cor &lt;- cor(x, y)\n  }\n\n  generate_data()\n\n  output$graph &lt;- renderPlot({\n\n    df &lt;- data.frame(\n      x = as.numeric(x_vals()),\n      y = as.numeric(y_vals())\n    )\n\n    req(nrow(df) &gt; 0)\n\n    ggplot(df, aes(x = x, y = y)) +\n      geom_point(size = 3, alpha = 1) +\n      theme(axis.text = element_text(size = 12),\n            axis.title = element_text(size = 16))\n  })\n\n  # ---- MESSAGE ----\n  output$message &lt;- renderText({\n\n    req(input$submit_guess)\n\n    guess &lt;- suppressWarnings(as.numeric(input$cor_guess))\n    req(!is.na(guess))\n\n    paste0(\n      \"Your guess was \", guess, \".\\n\\n\",\n      \"The true value was \", round(vars$true_cor, 3), \".\\n\",\n      \"That is a difference of \", round(abs(guess - vars$true_cor), 3), \".\"\n    )\n  })\n\n  output$stats &lt;- renderPlotly({\n\n    req(vars$show_stats)\n\n    if (length(vars$off_values) == 0) {\n\n      p &lt;- ggplot() +\n        annotate(\"text\", x = 0.5, y = 0.5,\n                 label = \"Please make some guesses to see guess history.\",\n                 size = 6) +\n        theme_void()\n\n    } else {\n\n      d &lt;- data.frame(\n        guess = seq_along(vars$off_values),\n        error = round(vars$off_values, 5)\n      )\n\n      p &lt;- ggplot(d, aes(x = guess, y = error)) +\n        geom_point() +\n        geom_line() +\n        geom_hline(yintercept = 0, color = \"red\") +\n        labs(x = \"Guess Number\", y = \"Error\") \n    }\n\n    ggplotly(p)\n  })\n\n  # ---- submit guess ----\n  observeEvent(input$submit_guess, {\n\n    guess &lt;- suppressWarnings(as.numeric(input$cor_guess))\n    req(!is.na(guess))\n\n    vars$off_values &lt;- c(vars$off_values, guess - vars$true_cor)\n  })\n\n  # ---- new plot ----\n  observeEvent(input$new_plot, {\n    generate_data()\n  })\n\n  # ---- reset ----\n  observeEvent(input$reset_input, {\n    generate_data()\n    vars$off_values &lt;- c()\n  })\n\n  # ---- toggle ----\n  observeEvent(input$toggle_stats, {\n\n    vars$show_stats &lt;- !vars$show_stats\n\n    if (vars$show_stats) {\n      shinyjs::show(\"stats\")\n      shinyjs::show(\"reset_container\")\n      updateActionButton(session, \"toggle_stats\",\n                         label = \"Hide Guess History\")\n    } else {\n      shinyjs::hide(\"stats\")\n      shinyjs::hide(\"reset_container\")\n      updateActionButton(session, \"toggle_stats\",\n                         label = \"Show Guess History\")\n    }\n  })\n}\n\nshinyApp(ui, server)"
+  },
+  {
+    "objectID": "workshops.html",
+    "href": "workshops.html",
+    "title": "Conference Workshops",
+    "section": "",
+    "text": "The Red Rock Data Science Conference 2026 was held at the Atwood Innovation Plaza at Utah Tech University in St. George, Utah from May 18-21. I led a workshop on Quarto, GitHub, and personal websites on Wednesday, May 19.\nThe materials for this workshop can be found on this GitHub page: https://github.com/rbrown53/RRDS26."
+  },
+  {
+    "objectID": "workshops.html#workshop-1-ggplot2",
+    "href": "workshops.html#workshop-1-ggplot2",
+    "title": "Conference Workshops",
+    "section": "Workshop 1 – ggplot2",
+    "text": "Workshop 1 – ggplot2\nThe zip file containing workshop 1 materials can be found here: Workshop 1 Files."
+  },
+  {
+    "objectID": "workshops.html#workshop-2-r-packages",
+    "href": "workshops.html#workshop-2-r-packages",
+    "title": "Conference Workshops",
+    "section": "Workshop 2 – R Packages",
+    "text": "Workshop 2 – R Packages\nThe zip file containing workshop 2 materials can be found here: Workshop 2 Files."
+  },
+  {
+    "objectID": "workshops.html#workshop-3-r-shiny",
+    "href": "workshops.html#workshop-3-r-shiny",
+    "title": "Conference Workshops",
+    "section": "Workshop 3 – R Shiny",
+    "text": "Workshop 3 – R Shiny\nThe zip file containing workshop 3 materials can be found here: Workshop 3 Files."
+  },
+  {
+    "objectID": "workshops.html#data-files",
+    "href": "workshops.html#data-files",
+    "title": "Conference Workshops",
+    "section": "Data Files",
+    "text": "Data Files\n\nairlines.csv\nCollegeDistance.csv"
+  }
+]
